@@ -1,0 +1,89 @@
+div{
+    position: absolute;
+}
+#box{
+    width: 0px;
+    height: 0px;
+    border-bottom: 300px solid transparent;
+    border-left:1925px solid transparent ;
+    border-top: 300px solid blue;
+}
+
+#img1 img{
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    overflow: visible;
+    margin-left: 1500px;
+}
+
+#img2 img{
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#cover img{
+    width: 2000px;
+    height: 800px;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: -11;
+}
+
+.for_overline{
+    text-decoration: overline;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin: 50px auto;
+    position: relative;
+}
+
+#contain_text h1{
+    text-align: center;
+    color: white;
+    font-size: 65px;
+}
+#contain_text {
+    width: 900px;
+    height: 500px;
+    background-color: rgba(0,0,255,0.6);
+    margin: 450px 450px auto 800px;
+    display: block;
+    position: absolute;
+}
+
+#bottom-top {
+    width: 0px;
+    height: 0px;
+    border-bottom: 300px solid yellow;
+    border-left:1925px solid transparent;
+    border-top: 100px solid transparent;
+    margin-top: 880px;
+    z-index: -11;
+}
+
+#text2{
+    display: inline-block !important;
+    margin-top: 1100px;
+    color: darkblue;
+    margin-left: 1000px;
+    width: 800px;
+
+}
+
+#text2 h1{
+    font-size: 50px;
+    display: inline;
+}
+#text2 p{
+    font-size: 40px;
+    display: block;
+    position: absolute;
+}
+
+#text-message {
+    border: solid red;
+    margin-top: 1300px;
+}
