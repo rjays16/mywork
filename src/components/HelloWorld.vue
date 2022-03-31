@@ -60,6 +60,94 @@
 
     <div id="for_blue"></div>
     <div id="for_yellow"></div>
+
+    <div id="about">
+      <center><h1>About the Asian Society of Dermatopathology (ASD)</h1></center>
+    </div>
+
+    <div id="asd">
+      <img src="../../image/ASD_Logo.png">
+    </div>
+
+    <div id="message_asd">
+      <p>The Asian Society of Dermatopathology (ASD) was founded in
+      2016 by prominent Dermatologists and Dermatopathologists
+      from the different recognized medical societies predominantly
+      based in Southeast Asian countries. Apart from creating
+      professional relationships, the goal of the society was to be
+      able improve the caliber of this subspecialty and to hone
+      further the diagnostic eye of its members by the sharing of
+      cases and being up-to-date with the new developments in this
+      field. The ASD offers Online Self-Learning Programs, monthly
+      webinars, annual international meetings, and provides links to
+      Asian dermatopathology fellowship and certification
+        programs.</p><br><br>
+      <center><a href="#" style="color: darkblue">Visit the ASD Website</a></center>
+    </div>
+
+    <div id="founders">
+      <!-- Via multiple directive modifiers -->
+      <b-button style="width: 995px; background-color: white; color: blue; font-size: 40px"  v-b-toggle.collapse-a.collapse-b @click="visible = !visible"><span style="float: left">THE FOUNDERS OF THE ASD</span>
+        <img v-if="visible===false" style="width: 60px; float: right" src="../../image/left.svg">
+        <img v-else style="width: 60px; float: right" src="../../image/down.png">
+      </b-button>
+
+      <!-- Via space separated string of IDs passed to directive value -->
+<!--      <b-button v-b-toggle="'collapse-a collapse-b'">Toggle Collapse A and B</b-button>-->
+
+<!--      &lt;!&ndash; Via array of string IDs passed to directive value &ndash;&gt;-->
+<!--      <b-button v-b-toggle="['collapse-a', 'collapse-b']">Toggle Collapse A and B</b-button>-->
+
+      <!-- Elements to collapse -->
+      <b-collapse id="collapse-a" class="mt-2">
+        <b-card><table width="775" border="0">
+          <tr>
+            <td width="408">AUNG, Phyu P. (Houston)</td>
+            <td width="240">PALIZA, Arnelfa C. (Manila)</td>
+          </tr>
+          <tr>
+            <td>CHOW, Steven (Kuala Lumpur) </td>
+            <td>PHUNG, Thuy L. (Houston)</td>
+          </tr>
+          <tr>
+            <td>ISMAEL, Daisy (Manila) </td>
+            <td>RAMAM, M (New Delhi)</td>
+          </tr>
+          <tr>
+            <td>JAMORA, Maria Jasmin J. (Manila)</td>
+            <td>SUN, Jianfang (Nanjing) </td>
+          </tr>
+          <tr>
+            <td>KIMURA, Tetsunori (Sapporo)</td>
+            <td>TAN, Suat Hoon (Singapore) </td>
+          </tr>
+          <tr>
+            <td>LEE, Bang Rom (Kuala Lumpur)</td>
+            <td>TEE, Shang-Ian (Singapore)</td>
+          </tr>
+          <tr>
+            <td>LEE, Dong-Youn (Seoul)</td>
+            <td>VERALLO-ROWELL, Vermen M. (Manila)</td>
+          </tr>
+          <tr>
+            <td>LEE, Joyce Siong See (Singapore)</td>
+            <td>WU, Yu-Hung (Taipei)</td>
+          </tr>
+          <tr>
+            <td>NOPPAKUM, Nopadon (Bangkok)</td>
+            <td>WANG, Lei (Xian</td>
+          </tr>
+          <tr>
+            <td>OHATA, Chika (Fukuoka)</td>
+            <td>YAMAMOTO, Osamu (Tottori)</td>
+          </tr>
+        </table>
+        </b-card>
+      </b-collapse>
+<!--      <b-collapse id="collapse-b" class="mt-2">-->
+<!--        <b-card>I am collapsible content B!</b-card>-->
+<!--      </b-collapse>-->
+</div>
     </div>
 
 
@@ -69,10 +157,12 @@
 import "../../css/style.css"
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
+  data(){
+    return {
+      visible: false
+    }
   }
-}
+  }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
