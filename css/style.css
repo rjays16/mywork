@@ -1,12 +1,13 @@
 div{
     position: absolute;
+
 }
 #box{
     width: 0px;
     height: 0px;
     border-bottom: 300px solid transparent;
-    border-left:1925px solid transparent ;
-    border-top: 300px solid blue;
+    border-left:1550px solid transparent ;
+    border-top: 300px solid darkblue;
 }
 
 #img1 img{
@@ -14,7 +15,7 @@ div{
     height: 200px;
     background-size: cover;
     overflow: visible;
-    margin-left: 1500px;
+    margin-left: 1100px;
 }
 
 #img2 img{
@@ -24,9 +25,9 @@ div{
 }
 
 #cover img{
-    width: 2000px;
-    height: 800px;
-    position: fixed;
+    width: 1550px;
+    height: 1250px;
+    position: absolute;
     background-repeat: no-repeat;
     z-index: -11;
 }
@@ -43,13 +44,13 @@ div{
 #contain_text h1{
     text-align: center;
     color: white;
-    font-size: 65px;
+    font-size: 50px;
 }
 #contain_text {
-    width: 900px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
     background-color: rgba(0,0,255,0.6);
-    margin: 450px 450px auto 800px;
+    margin: 350px 350px auto 800px;
     display: block;
     position: absolute;
 }
@@ -57,8 +58,8 @@ div{
 #bottom-top {
     width: 0px;
     height: 0px;
-    border-bottom: 300px solid yellow;
-    border-left:1925px solid transparent;
+    border-bottom: 300px solid #c7c10c;
+    border-left:1550px solid transparent;
     border-top: 100px solid transparent;
     margin-top: 880px;
     z-index: -11;
@@ -68,7 +69,7 @@ div{
     display: inline-block !important;
     margin-top: 1100px;
     color: darkblue;
-    margin-left: 1000px;
+    margin-left: 750px;
     width: 800px;
 
 }
@@ -84,6 +85,67 @@ div{
 }
 
 #text-message {
-    border: solid red;
-    margin-top: 1300px;
+    width: 1100px;
+    margin-left: 400px;
+    font-size: 20px;
+    margin-top: 1350px;
+}
+
+#content h1{
+    margin-left: 200px;
+}
+#profile img{
+    width: 500px;
+    height: 500px;
+    margin-top: 1460px;
+    margin-left: 100px;
+}
+
+#profile p{
+    margin-left: 100px;
+}
+
+#box_inside {
+    width: 500px;
+    height: 120px;
+    margin-top: 1960px;
+    margin-left: 100px;
+    background: darkblue;
+    z-index: -11;
+}
+
+#box_outside {
+    width: 500px;
+    height: 120px;
+    margin-top: 1930px;
+    margin-left: 150px;
+    background: #c7c10c;
+    color: white;
+}
+#message {
+    font-size: 30px;
+    margin-top: 1500px;
+    margin-left: 700px;
+    width: 700px;
+}
+#right{
+    float: right;
+    font-size: 50px;
+}
+
+#for_blue{
+    margin-top: 2290px;
+    border-bottom: 300px solid transparent;
+    border-left: 1550px solid transparent ;
+    border-top: 300px solid darkblue;
+}
+
+#for_yellow{
+    width: 0px;
+    height: 0px;
+    border-bottom: 200px solid transparent;
+    border-left: 1000px solid #c7c10c;
+    border-top: 100px solid transparent;
+    margin-top: 2290px;
+    z-index: -11;
 }
