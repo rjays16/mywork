@@ -149,3 +149,38 @@ div{
     margin-top: 2290px;
     z-index: -11;
 }
+
+#about {
+    width: 750px;
+    height: 70px;
+    color: white;
+    padding: 20px;
+    border-radius: 35px;
+    margin-top: 2660px;
+    margin-left: 200px;
+    background: darkblue;
+}
+
+#asd img{
+    width: 500px;
+    height: 500px;
+    margin-top: 2860px;
+    margin-left: 100px;
+}
+
+#message_asd{
+    width: 800px;
+    margin-top: 2860px;
+    margin-left: 620px;
+    font-size: 38px;
+}
+
+#founders{
+    margin-top: 4100px;
+    border: solid blue;
+    width: 1000px;
+    height: 500px;
+    margin-left: 199px;
+    font-size: 20px;
+}
+
