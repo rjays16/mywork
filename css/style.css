@@ -177,10 +177,82 @@ div{
 
 #founders{
     margin-top: 4100px;
-    border: solid blue;
-    width: 1000px;
+    border: solid darkblue;
+    width: 1300px;
     height: 500px;
-    margin-left: 199px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+#dsp{
+    margin-top: 4700px;
+    border: solid darkblue;
+    width: 600px;
+    height: 300px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+#organizing{
+    margin-top: 4700px;
+    border: solid darkblue;
+    width: 600px;
+    height: 300px;
+    margin-left: 900px;
+    font-size: 20px;
+}
+
+#scientific{
+    margin-top: 5100px;
+    border: solid darkblue;
+    width: 600px;
+    height: 300px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+#ways{
+    margin-top: 5100px;
+    border: solid darkblue;
+    width: 600px;
+    height: 300px;
+    margin-left: 900px;
+    font-size: 20px;
+}
+
+#physical{
+    margin-top: 5500px;
+    border: solid darkblue;
+    width: 600px;
+    height: 300px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+#publicity{
+    margin-top: 5500px;
+    border: solid darkblue;
+    width: 600px;
+    height: 300px;
+    margin-left: 900px;
+    font-size: 20px;
+}
+
+#registration{
+    margin-top: 5900px;
+    border: solid darkblue;
+    width: 600px;
+    height: 300px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+#research{
+    margin-top: 5900px;
+    border: solid darkblue;
+    width: 600px;
+    height: 300px;
+    margin-left: 900px;
     font-size: 20px;
 }
 
