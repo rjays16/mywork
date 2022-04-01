@@ -278,20 +278,20 @@ div{
 #button_sub{
     margin-top: 6355px;
     width: 590px;
-    margin-left: 905px;
+    margin-left: 907px;
 }
 
 #button_sub button{
     background-color: yellow;
     color: darkblue;
-    width: 415px;
+    width: 412px;
 }
 
 #for_blue2{
     width: 0px;
     height: 0px;
     border-bottom: 100px solid transparent;
-    border-left: 1600px solid darkblue;
+    border-left: 1550px solid darkblue;
     border-top: 100px solid transparent;
     margin-top: 6600px;
 }
@@ -301,7 +301,7 @@ div{
     border-bottom: 100px solid transparent;
     border-left: 1550px solid transparent ;
     border-top: 100px solid #c7c10c;
-    z-index: -11;
+    z-index: 11;
 }
 
 #for_bue2_mess{
@@ -309,6 +309,22 @@ div{
     color: white;
     margin-left: 400px;
     width: 700px;
+}
+
+#social{
+    margin-top: 6430px;
+    margin-left: 400px;
+}
+
+#social img{
+    width: 300px;
+}
+
+#social_mess{
+    margin-top: 6490px;
+    margin-left: 800px;
+    color: darkblue;
+    font-size: 80px;
 }
 
 
