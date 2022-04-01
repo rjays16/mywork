@@ -342,6 +342,7 @@
     </div>
 
     <div id="button_sub">
+      <button>SUSCRIBE TO ASD 2022 NEWSLETTER</button>
       </div>
 
     <div id="for_blue2"></div>
