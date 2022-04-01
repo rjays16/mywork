@@ -97,7 +97,8 @@
 
       <!-- Elements to collapse -->
       <b-collapse id="collapse-a" class="mt-2">
-        <b-card><table width="775" border="0">
+        <b-card>
+          <table width="775" border="0">
           <tr>
             <td width="408">AUNG, Phyu P. (Houston)</td>
             <td width="240">PALIZA, Arnelfa C. (Manila)</td>
@@ -149,7 +150,8 @@
       <img v-else style="width: 60px; float: right" src="../../image/down.png">
       </b-button>
       <b-collapse id="collapse-b" class="mt-2">
-        <b-card><table width="313" border="0">
+        <b-card>
+          <table width="313" border="0">
           <tr>
             <td width="303">Arnelfa C. Paliza, MD, FPDS</td>
           </tr>
@@ -172,7 +174,8 @@
         <img v-else style="width: 60px; float: right" src="../../image/down.png">
       </b-button>
       <b-collapse id="collapse-c" class="mt-2">
-        <b-card><table width="313" border="0">
+        <b-card>
+          <table width="313" border="0">
           <tr>
             <td width="303">Arnelfa C. Paliza, MD, FPDS</td>
           </tr>
@@ -189,7 +192,8 @@
         <img v-else style="width: 60px; float: right" src="../../image/down.png">
       </b-button>
       <b-collapse id="collapse-d" class="mt-2">
-        <b-card><table width="319" border="0">
+        <b-card>
+          <table width="319" border="0">
           <tr>
             <td width="227">Flordeliza Casintahan, MD, FPDS</td>
           </tr>
@@ -215,7 +219,8 @@
         <img v-else style="width: 60px; float: right" src="../../image/down.png">
       </b-button>
       <b-collapse id="collapse-e" class="mt-2">
-        <b-card><table width="349" border="0">
+        <b-card>
+          <table width="349" border="0">
           <tr>
             <td width="317">Georgina C. Pastorfide, MD, FPDS</td>
           </tr>
@@ -238,7 +243,8 @@
         <img v-else style="width: 60px; float: right" src="../../image/down.png">
       </b-button>
       <b-collapse id="collapse-f" class="mt-2">
-        <b-card><table width="432" border="0">
+        <b-card>
+          <table width="432" border="0">
           <tr>
             <td width="244">Andrea Marie B. Bernales- Mendoza, MD, FPDS</td>
           </tr>
@@ -261,7 +267,8 @@
         <img v-else style="width: 60px; float: right" src="../../image/down.png">
       </b-button>
       <b-collapse id="collapse-g" class="mt-2">
-        <b-card><table width="346" border="0">
+        <b-card>
+          <table width="346" border="0">
           <tr>
             <td width="340">Kara Melissa Torres-Culala, MD, FPDS</td>
           </tr>
@@ -284,7 +291,8 @@
         <img v-else style="width: 60px; float: right" src="../../image/down.png">
       </b-button>
       <b-collapse id="collapse-i" class="mt-2">
-        <b-card><table width="346" border="0">
+        <b-card>
+          <table width="346" border="0">
           <tr>
             <td width="340">Mary Elizabeth Danga, MD, FPDS</td>
           </tr>
@@ -307,7 +315,8 @@
         <img v-else style="width: 60px; float: right" src="../../image/down.png">
       </b-button>
       <b-collapse id="collapse-j" class="mt-2">
-        <b-card><table width="408" border="0">
+        <b-card>
+          <table width="408" border="0">
           <tr>
             <td width="398">Mara Therese P. Evangelista-Huber, MD, FPDS</td>
           </tr>
@@ -327,8 +336,18 @@
       </b-collapse>
     </div>
 
+    <div id="subscribe">
+      <h1>SUSCRIBE TO OUR NEWSLETTER</h1>
+      <input id="email" name="email" placeholder="Email" size="50px" style="margin-left: 250px; margin-top: 20px">
     </div>
 
+    <div id="button_sub">
+      </div>
+
+    <div id="for_blue2"></div>
+    <div id="for_bue2_mess"><p>2022 All Rights Reserved © Asian Society of Dermatopathology | October 24-25, 2022</p></div>
+    <div id="for_yellow2"></div>
+    </div>
 
 
 </template>
