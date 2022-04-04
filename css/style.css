@@ -133,7 +133,7 @@ div{
 }
 
 #for_blue{
-    margin-top: 2290px;
+    margin-top: 2500px;
     border-bottom: 300px solid transparent;
     border-left: 1550px solid transparent ;
     border-top: 300px solid darkblue;
@@ -145,7 +145,7 @@ div{
     border-bottom: 200px solid transparent;
     border-left: 1000px solid #c7c10c;
     border-top: 100px solid transparent;
-    margin-top: 2290px;
+    margin-top: 2500px;
     z-index: -11;
 }
 
@@ -155,7 +155,7 @@ div{
     color: white;
     padding: 20px;
     border-radius: 35px;
-    margin-top: 2660px;
+    margin-top: 2830px;
     margin-left: 200px;
     background: darkblue;
 }
@@ -163,19 +163,19 @@ div{
 #asd img{
     width: 500px;
     height: 500px;
-    margin-top: 2860px;
+    margin-top: 3300px;
     margin-left: 100px;
 }
 
 #message_asd{
     width: 800px;
-    margin-top: 2860px;
+    margin-top: 3100px;
     margin-left: 620px;
     font-size: 38px;
 }
 
 #founders{
-    margin-top: 4100px;
+    margin-top: 4300px;
     border: solid darkblue;
     width: 1300px;
     height: 500px;
@@ -184,7 +184,7 @@ div{
 }
 
 #dsp{
-    margin-top: 4700px;
+    margin-top: 4900px;
     border: solid darkblue;
     width: 600px;
     height: 300px;
@@ -193,7 +193,7 @@ div{
 }
 
 #organizing{
-    margin-top: 4700px;
+    margin-top: 4900px;
     border: solid darkblue;
     width: 600px;
     height: 300px;
@@ -202,7 +202,7 @@ div{
 }
 
 #scientific{
-    margin-top: 5100px;
+    margin-top: 5300px;
     border: solid darkblue;
     width: 600px;
     height: 300px;
@@ -211,7 +211,7 @@ div{
 }
 
 #ways{
-    margin-top: 5100px;
+    margin-top: 5300px;
     border: solid darkblue;
     width: 600px;
     height: 300px;
@@ -220,7 +220,7 @@ div{
 }
 
 #physical{
-    margin-top: 5500px;
+    margin-top: 5700px;
     border: solid darkblue;
     width: 600px;
     height: 300px;
@@ -229,7 +229,7 @@ div{
 }
 
 #publicity{
-    margin-top: 5500px;
+    margin-top: 5700px;
     border: solid darkblue;
     width: 600px;
     height: 300px;
@@ -238,7 +238,7 @@ div{
 }
 
 #registration{
-    margin-top: 5900px;
+    margin-top: 6100px;
     border: solid darkblue;
     width: 600px;
     height: 300px;
@@ -247,7 +247,7 @@ div{
 }
 
 #research{
-    margin-top: 5900px;
+    margin-top: 6100px;
     border: solid darkblue;
     width: 600px;
     height: 300px;
@@ -258,7 +258,7 @@ div{
 #subscribe {
     width: 1550px;
     height: 120px;
-    margin-top: 6300px;
+    margin-top: 6420px;
     background: darkblue;
     color: white;
 }
@@ -276,7 +276,7 @@ div{
 }
 
 #button_sub{
-    margin-top: 6355px;
+    margin-top: 6480px;
     width: 590px;
     margin-left: 907px;
 }
@@ -293,11 +293,11 @@ div{
     border-bottom: 100px solid transparent;
     border-left: 1550px solid darkblue;
     border-top: 100px solid transparent;
-    margin-top: 6600px;
+    margin-top: 6750px;
 }
 
 #for_yellow2{
-    margin-top: 6600px;
+    margin-top: 6750px;
     border-bottom: 100px solid transparent;
     border-left: 1550px solid transparent ;
     border-top: 100px solid #c7c10c;
@@ -305,14 +305,14 @@ div{
 }
 
 #for_bue2_mess{
-    margin-top: 6680px;
+    margin-top: 6830px;
     color: white;
     margin-left: 400px;
     width: 700px;
 }
 
 #social{
-    margin-top: 6430px;
+    margin-top: 6550px;
     margin-left: 400px;
 }
 
@@ -321,7 +321,7 @@ div{
 }
 
 #social_mess{
-    margin-top: 6490px;
+    margin-top: 6600px;
     margin-left: 800px;
     color: darkblue;
     font-size: 80px;
