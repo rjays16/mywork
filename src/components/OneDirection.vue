@@ -1,6 +1,5 @@
 <template>
   <section>
-
     <div id="box"></div>
     <div id="img1">
       <img src="../../image/ONE_trans.png">
@@ -29,28 +28,18 @@
       <center><h1>SAVE THE DATE!</h1></center>
       <center><p>REGISTRATION OPENS ON APRIL 18, 2022</p></center>
     </div>
-    
+
   </section>
 </template>
 
 <script>
 import "../../css/style.css"
 export default {
-  name: "one_direction",
   data(){
     return {
-      visible: false,
-      visible2: false,
-      visible3: false,
-      visible4: false,
-      visible5: false,
-      visible6: false,
-      visible7: false,
-      visible8: false,
-      visible9: false,
-      visible10: false
+
     }
-  }
+},
 }
 </script>
 

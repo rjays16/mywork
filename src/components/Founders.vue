@@ -256,7 +256,21 @@
 
 <script>
 export default {
-  name: "Founders_content"
+  name: "Founders_content",
+  data(){
+    return {
+      visible: false,
+      visible2: false,
+      visible3: false,
+      visible4: false,
+      visible5: false,
+      visible6: false,
+      visible7: false,
+      visible8: false,
+      visible9: false,
+      visible10: false,
+    }
+  }
 }
 </script>
 

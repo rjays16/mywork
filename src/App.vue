@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-
+  <ASD_Video/>
     <one_direction/>
     <profile/>
     <about/>
     <founders/>
     <suscribe/>
     <footer_content/>
+
   </div>
 </template>
 
 <script>
-
 
 import one_direction from "@/components/OneDirection";
 import Profile from "@/components/Profile";
@@ -19,17 +19,19 @@ import About from "@/components/About";
 import Founders from "@/components/Founders";
 import Suscribe from "@/components/Suscribe";
 import footer_content from "@/components/Footer_social";
+
+
 export default {
   name: 'App',
   components: {
+
     footer_content,
     Suscribe,
     Founders,
     About,
     Profile,
     one_direction
-
-  }
+  },
 }
 </script>
 
