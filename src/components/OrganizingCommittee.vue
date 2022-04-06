@@ -1,7 +1,7 @@
 <template>
 <section>
   <div id="about">
-    <center><h1>About the Asian Society of Dermatopathology (ASD)</h1></center>
+    <center><h3>ABOUT THE ASIAN SOCIETY OF DERMATOPATHOLOGY (ASD)</h3></center>
   </div>
 
   <div id="asd">
@@ -20,13 +20,14 @@
       field. The ASD offers Online Self-Learning Programs, monthly
       webinars, annual international meetings, and provides links to
       Asian dermatopathology fellowship and certification
-      programs.</p><br><br>
-    <center><a href="#" style="color: darkblue">Visit the ASD Website</a></center>
+      programs.</p>
+    <center><a href="#">Visit the ASD Website</a></center>
   </div>
 
+  <div id="committee">
   <div id="founders">
-
-    <b-button style="width: 1295px; background-color: white; color: darkblue; font-size: 40px"  v-b-toggle.collapse-a @click="visible = !visible"><span style="float: left">THE FOUNDERS OF THE ASD</span>
+    <b-button style="width: 1295px; background-color: white; color: darkblue; font-size: 40px;"  v-b-toggle.collapse-a @click="visible = !visible">
+      <span style="float: left">THE FOUNDERS OF THE ASD</span>
       <img v-if="visible===false" style="width: 60px; float: right" src="../../image/left.svg">
       <img v-else style="width: 60px; float: right" src="../../image/down.png">
     </b-button>
@@ -37,7 +38,7 @@
     <!-- Elements to collapse -->
     <b-collapse id="collapse-a" class="mt-2">
       <b-card>
-        <table width="775" border="0">
+        <table border="1">
           <tr>
             <td width="408">AUNG, Phyu P. (Houston)</td>
             <td width="240">PALIZA, Arnelfa C. (Manila)</td>
@@ -84,7 +85,8 @@
   </div>
 
   <div id="dsp">
-    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px"  v-b-toggle.collapse-b @click="visible2 = !visible2"><span style="float: left">DSP Board of Directors</span>
+    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px"  v-b-toggle.collapse-b @click="visible2 = !visible2">
+      <span style="float: left">DSP Board of Directors</span>
       <img v-if="visible2===false" style="width: 60px; float: right" src="../../image/left.svg">
       <img v-else style="width: 60px; float: right" src="../../image/down.png">
     </b-button>
@@ -177,7 +179,7 @@
   </div>
 
   <div id="physical">
-    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px"  v-b-toggle.collapse-f @click="visible6 = !visible6"><span style="float: left">PHYSICAL ARRANGEMENTS</span>
+    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px "  v-b-toggle.collapse-f @click="visible6 = !visible6"><span style="float: left">PHYSICAL ARRANGEMENTS</span>
       <img v-if="visible6===false" style="width: 60px; float: right" src="../../image/left.svg">
       <img v-else style="width: 60px; float: right" src="../../image/down.png">
     </b-button>
@@ -273,6 +275,7 @@
           </tr>
         </table></b-card>
     </b-collapse>
+  </div>
   </div>
 </section>
 </template>

@@ -11,7 +11,7 @@ html, body{
     height: 0px;
     border-bottom: 200px solid transparent;
     border-left: 100vw solid transparent ;
-    border-top: 150px solid darkblue;
+    border-top: 150px solid #030c4c;
     position: absolute;
 }
 
@@ -76,7 +76,7 @@ html, body{
 #text2{
     display: inline-block !important;
     margin-top: 482px;
-    color: darkblue;
+    color: #030c4c;
     margin-left: 750px;
     width: 800px;
 }
@@ -117,7 +117,7 @@ html, body{
     height: 60px;
     margin-top: 1560px;
     margin-left: 130px;
-    background: darkblue;
+    background: #030c4c;
     z-index: -11;
 }
 
@@ -142,51 +142,67 @@ html, body{
     margin-top: 1680px;
     border-bottom: 300px solid transparent;
     border-left: 1550px solid transparent ;
-    border-top: 300px solid darkblue;
+    border-top: 300px solid #030c4c;
 }
 
 #for_yellow{
     width: 0px;
     height: 0px;
     border-bottom: 100px solid transparent;
-    border-left: 550px solid #c7c10c;
+    border-left: 550px solid #eec005;
     border-top: 100px solid transparent;
     margin-top: 1680px;
     z-index: -11;
 }
 
 #about {
-    width: 750px;
+    width: 1000px;
     height: 70px;
     color: white;
     padding: 20px;
-    border-radius: 35px;
-    margin-top: 2830px;
-    margin-left: 200px;
-    background: darkblue;
+    border-radius: 20px;
+    margin-top: 2000px;
+    margin-left: 100px;
+    background: #030c4c;
+}
+
+#about h3{
+    font-size: 25px;
 }
 
 #asd img{
-    width: 500px;
-    height: 500px;
-    margin-top: 3300px;
-    margin-left: 100px;
+    width: 325px;
+    height: 325px;
+    margin-top: 2100px;
+    margin-left: 70px;
 }
+
 
 #message_asd{
-    width: 800px;
-    margin-top: 3100px;
-    margin-left: 620px;
-    font-size: 38px;
+    color: #030c4c;
+    width: 950px;
+    margin-top: 2100px;
+    margin-left: 420px;
+    font-size: 1rem;
 }
 
+#message_asd a{
+    color: #030c4c;
+    font-weight: 700;
+}
 #founders{
     margin-top: 4300px;
-    border: solid darkblue;
+    border: solid #030c4c;
     width: 1300px;
-    height: 500px;
     margin-left: 200px;
     font-size: 20px;
+}
+
+#founders table{
+    border: solid #030c4c;
+    margin-top: -25px;
+    margin-left: -19px;
+    width: 1299px;
 }
 
 #dsp{
@@ -306,7 +322,7 @@ html, body{
     margin-top: 6750px;
     border-bottom: 100px solid transparent;
     border-left: 1550px solid transparent ;
-    border-top: 100px solid #c7c10c;
+    border-top: 100px solid #eec005;
     z-index: 11;
 }
 
@@ -363,7 +379,7 @@ html, body{
         width: 0px;
         height: 0px;
         border-bottom: 60px solid transparent;
-        border-left: 550px solid #c7c10c;
+        border-left: 550px solid #eec005;
         border-top: 60px solid transparent;
         margin-top: 1900px;
         z-index: -11;
@@ -373,7 +389,7 @@ html, body{
         margin-top: 1900px;
         border-bottom: 300px solid transparent;
         border-left: 2000px solid transparent ;
-        border-top: 300px solid darkblue;
+        border-top: 300px solid #030c4c;
     }
     #cover img{
         width: 1050px;
@@ -399,7 +415,7 @@ html, body{
     #text2{
         display: inline-block !important;
         margin-top: 525px;
-        color: darkblue;
+        color: #030c4c;
         margin-left: 100px;
         width: 800px;
     }
@@ -438,7 +454,7 @@ html, body{
         height: 60px;
         margin-top: 1500px;
         margin-left: 240px;
-        background: darkblue;
+        background: #030c4c;
         z-index: -11;
     }
 
@@ -463,6 +479,35 @@ html, body{
         margin-left: 90px;
         width: 600px;
     }
+
+    #about {
+        width: 800px;
+        height: 70px;
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 2100px;
+        margin-left: 100px;
+        background: #030c4c;
+    }
+    #about h3{
+        font-size: 22px;
+    }
+
+    #asd img{
+        width: 300px;
+        height: 300px;
+        margin-top: 2180px;
+        margin-left: 90px;
+    }
+
+    #message_asd{
+        color: #030c4c;
+        width: 800px;
+        margin-top: 2190px;
+        margin-left: 400px;
+        font-size: 1rem;
+    }
 }
 
 @media all and (max-width: 800px) and (min-width: 300px){
@@ -478,7 +523,7 @@ html, body{
         width: 0px;
         height: 0px;
         border-bottom: 40px solid transparent;
-        border-left: 550px solid #c7c10c;
+        border-left: 250px solid #eec005;
         border-top: 40px solid transparent;
         margin-top: 1750px;
         z-index: -11;
@@ -487,8 +532,8 @@ html, body{
     #for_blue{
         margin-top: 1750px;
         border-bottom: 300px solid transparent;
-        border-left: 3000px solid transparent ;
-        border-top: 300px solid darkblue;
+        border-left: 1900px solid transparent ;
+        border-top: 300px solid #030c4c;
     }
     #cover img{
         width: 800px;
@@ -513,7 +558,7 @@ html, body{
     #text2{
         display: inline-block !important;
         margin-top: 520px;
-        color: darkblue;
+        color: #030c4c;
         margin-left: 50px;
         width: 400px;
     }
@@ -555,7 +600,7 @@ html, body{
         height: 60px;
         margin-top: 1250px;
         margin-left: 100px;
-        background: darkblue;
+        background: #030c4c;
         z-index: -11;
     }
 
@@ -579,6 +624,40 @@ html, body{
         margin-top: 1350px;
         margin-left: 50px;
         width: 400px;
+    }
+    #about {
+        width: 400px;
+        height: 90px;
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 2160px;
+        margin-left: 50px;
+        background: #030c4c;
+    }
+    #about h3{
+        font-size: 18px;
+    }
+
+    #asd img{
+        width: 350px;
+        height: 350px;
+        margin-top: 1850px;
+        margin-left: 90px;
+    }
+
+    #message_asd{
+        color: #030c4c;
+        width: 450px;
+        margin-top: 2290px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    #message_asd a{
+        color: #030c4c;
+        font-size: 20px;
+        font-weight: 750;
     }
 }
 
