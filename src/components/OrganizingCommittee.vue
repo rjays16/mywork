@@ -279,7 +279,7 @@
 
 <script>
 export default {
-  name: "Founders_content",
+  name: "OrganizaingCommittee",
   data(){
     return {
       visible: false,

@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "OrganizingCommittee"
+  name: "PromoVideo"
 }
 </script>
 

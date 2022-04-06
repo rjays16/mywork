@@ -1,30 +1,29 @@
 <template>
   <div id="app">
-    <PresidentMessage/>
     <About/>
+    <PromoVideo/>
+    <PresidentMessage/>
     <OrganizingCommittee/>
-    <founders/>
-    <suscribe/>
-    <footer_content/>
+    <Socials/>
 
-  </div>
+
+  </di
 </template>
 
 <script>
 
 import PresidentMessage from "@/components/PresidentMessage";
 import About from "@/components/About";
-import Founders from "@/components/Founders";
-import Suscribe from "@/components/Suscribe";
-import footer_content from "@/components/Footer_social";
-import OrganizingCommittee from "@/components/PromoVideo";
+import OrganizingCommittee from "@/components/OrganizingCommittee";
+import Socials from "@/components/Socials";
+import PromoVideo from "@/components/PromoVideo";
 export default {
   name: 'App',
   components: {
+    PromoVideo,
+
+    Socials,
     OrganizingCommittee,
-    footer_content,
-    Suscribe,
-    Founders,
     About,
     PresidentMessage,
   },
