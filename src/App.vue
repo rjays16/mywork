@@ -5,9 +5,7 @@
     <PresidentMessage/>
     <OrganizingCommittee/>
     <Socials/>
-
-
-  </di
+  </div>
 </template>
 
 <script>
