@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-  <ASD_Video/>
-    <one_direction/>
-    <profile/>
-    <about/>
+    <PresidentMessage/>
+    <About/>
+    <OrganizingCommittee/>
     <founders/>
     <suscribe/>
     <footer_content/>
@@ -13,24 +12,21 @@
 
 <script>
 
-import one_direction from "@/components/OneDirection";
-import Profile from "@/components/Profile";
+import PresidentMessage from "@/components/PresidentMessage";
 import About from "@/components/About";
 import Founders from "@/components/Founders";
 import Suscribe from "@/components/Suscribe";
 import footer_content from "@/components/Footer_social";
-
-
+import OrganizingCommittee from "@/components/PromoVideo";
 export default {
   name: 'App',
   components: {
-
+    OrganizingCommittee,
     footer_content,
     Suscribe,
     Founders,
     About,
-    Profile,
-    one_direction
+    PresidentMessage,
   },
 }
 </script>

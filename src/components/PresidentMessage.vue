@@ -10,11 +10,12 @@
   </div>
   <div id="box_inside"></div>
   <div id="box_outside">
-    <center><h1>Dr Yu-Hung Wu</h1>
-      <h1>President</h1></center>
+    <center><p>Dr Yu-Hung Wu <br>President</p>
+      </center>
   </div>
+    <div id="left"><strong>❝</strong></div>
   <div id="message">
-    <p><strong style="font-size: 50px;">“</strong><br>On behalf of the Asian Society of Dermatopathology
+    <p>On behalf of the Asian Society of Dermatopathology
       (ASD), we sincerely welcome you to join our 4th Annual
       Meeting on Oct 24-25, 2022. It’s our great pleasure and
       privileges to share the knowledge, experience, and
@@ -23,9 +24,9 @@
       great efforts and commitment to organize and present
       in this conference. We wish the convention every
       success and all the best to everyone.
-      <br><br><br>Let me know if there is any question.
+      <br><br>Let me know if there is any question.
       <br><br>Best regards,<br><br>Yuhung</p>
-    <strong id="right">„</strong>
+    <strong id="right">❞</strong>
   </div>
 
   <div id="for_blue"></div>
@@ -35,7 +36,7 @@
 
 <script>
 export default {
-  name: "Profile_content"
+  name: "PresidentMessage"
 }
 </script>
 

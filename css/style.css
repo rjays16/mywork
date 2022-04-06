@@ -1,6 +1,11 @@
 div{
     position: absolute;
 }
+html, body{
+    overflow-x: hidden;
+}
+
+
 #box{
     width: 0px;
     height: 0px;
@@ -24,11 +29,21 @@ div{
         height: 6rem;
         background-size: cover;
         overflow: visible;
-        margin-left: 1100px;
+        margin-left: 1090px
     }
 }
 
-@media all and (max-width: 800px) and (min-width: 300px) {
+@media all and (max-width: 800px) and (min-width: 300px){
+    #img1 img{
+        width: auto;
+        height: 6rem;
+        background-size: cover;
+        overflow: visible;
+        margin-left: 530px;
+    }
+}
+
+@media all and (max-width: 500px ) and (min-width: 420px){
     #img1 img{
         width: auto;
         height: 6rem;
@@ -37,6 +52,7 @@ div{
         margin-left: 250px;
     }
 }
+
 
 #img2 img{
     overflow: hidden;
@@ -52,6 +68,26 @@ div{
     position: absolute;
     background-repeat: no-repeat;
     z-index: -11;
+}
+
+@media all and (max-width: 800px) and (min-width: 300px){
+    #cover img{
+        width: 1050px;
+        height: 600px;
+        position: absolute;
+        background-repeat: no-repeat;
+        z-index: -11;
+    }
+}
+
+@media all and (max-width: 500px ) and (min-width: 420px){
+    #cover img{
+        width: 500px;
+        height: 600px;
+        position: absolute;
+        background-repeat: no-repeat;
+        z-index: -11;
+    }
 }
 
 .for_overline{
@@ -109,15 +145,6 @@ div{
     }
 }
 
-@media (max-width: 600px ) and (min-width: 400px) {
-    #text2{
-        display: inline-block !important;
-        margin-top: 482px;
-        color: darkblue;
-        margin-left: 80px;
-        width: 400px;
-    }
-}
 
 #bottom-top {
     width: 100%;
@@ -137,25 +164,6 @@ div{
     width: 800px;
 }
 
-@media (max-width: 1000px ) and (min-width: 700px)  {
-    #text2{
-        display: inline-block !important;
-        margin-top: 482px;
-        color: darkblue;
-        margin-left: 375px;
-        width: 800px;
-    }
-}
-
-@media (max-width: 600px ) and (min-width: 400px) {
-    #text2{
-        display: inline-block !important;
-        margin-top: 482px;
-        color: darkblue;
-        margin-left: 80px;
-        width: 400px;
-    }
-}
 #text2 h1{
     font-size: 45px;
     display: inline;
@@ -166,20 +174,60 @@ div{
     position: absolute;
 }
 
+@media (max-width: 1000px ) and (min-width: 700px)  {
+    #text2{
+        display: inline-block !important;
+        margin-top: 525px;
+        color: darkblue;
+        margin-left: 100px;
+        width: 800px;
+    }
+    #text2 h1{
+        font-size: 25px;
+        display: inline;
+    }
+    #text2 p{
+        font-size: 25px;
+        margin-left: 140px;
+        display: block;
+        position: absolute;
+    }
+}
+
+@media (max-width: 600px ) and (min-width: 400px) {
+    #text2{
+        display: inline-block !important;
+        margin-top: 550px;
+        color: darkblue;
+        margin-left: 150px;
+        width: 400px;
+    }
+
+    #text2 h1{
+        font-size: 20px;
+        display: inline;
+    }
+    #text2 p{
+        font-size: 18px;
+        display: block;
+        position: absolute;
+    }
+}
+
 #text-message {
     width: 1100px;
-    margin-left: 400px;
+    margin-left: 280px;
     font-size: 20px;
-    margin-top: 1350px;
+    margin-top: 1050px;
 }
 
 #content h1{
-    margin-left: 200px;
+    margin-left: 300px;
 }
 #profile img{
-    width: 500px;
-    height: 500px;
-    margin-top: 1460px;
+    width: 363px;
+    height: 400px;
+    margin-top: 1150px;
     margin-left: 100px;
 }
 
@@ -188,35 +236,33 @@ div{
 }
 
 #box_inside {
-    width: 500px;
-    height: 120px;
-    margin-top: 1960px;
-    margin-left: 100px;
+    width: 400px;
+    height: 60px;
+    margin-top: 1560px;
+    margin-left: 130px;
     background: darkblue;
     z-index: -11;
 }
 
 #box_outside {
-    width: 500px;
-    height: 120px;
-    margin-top: 1930px;
+    width: 400px;
+    height: 70px;
+    margin-top: 1530px;
     margin-left: 150px;
-    background: #c7c10c;
+    background: #eec005;
     color: white;
+    font-size: 1.3em;
 }
+
 #message {
-    font-size: 30px;
-    margin-top: 1500px;
-    margin-left: 700px;
+    font-size: 20px;
+    margin-top: 1190px;
+    margin-left: 690px;
     width: 700px;
-}
-#right{
-    float: right;
-    font-size: 50px;
 }
 
 #for_blue{
-    margin-top: 2500px;
+    margin-top: 1680px;
     border-bottom: 300px solid transparent;
     border-left: 1550px solid transparent ;
     border-top: 300px solid darkblue;
@@ -225,10 +271,10 @@ div{
 #for_yellow{
     width: 0px;
     height: 0px;
-    border-bottom: 200px solid transparent;
-    border-left: 1000px solid #c7c10c;
+    border-bottom: 100px solid transparent;
+    border-left: 550px solid #c7c10c;
     border-top: 100px solid transparent;
-    margin-top: 2500px;
+    margin-top: 1680px;
     z-index: -11;
 }
 
@@ -408,6 +454,175 @@ div{
     margin-left: 800px;
     color: darkblue;
     font-size: 80px;
+}
+
+#vid{
+    margin-top: 550px;
+    margin-left: 450px;
+}
+
+@media (max-width: 1000px ) and (min-width: 700px)  {
+   #vid{
+       margin-top: 600px;
+       margin-left: 0px;
+   }
+    #vid iframe{
+        width: 900px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 600px ) and (min-width: 400px) {
+    #vid{
+        margin-top: 390px;
+        margin-left: 0px;
+    }
+    #vid iframe{
+        width: 500px;
+        height: 700px;
+    }
+}
+
+#left{
+    font-size: 4em;
+    margin-top: 1150px;
+    margin-left: 600px;
+}
+
+#right{
+    font-size: 2em;
+    float: right;
+}
+
+@media (max-width: 1000px ) and (min-width: 700px)  {
+    #content h1{
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+
+    #profile img{
+        width: 350px;
+        height: 350px;
+        margin-top: 1150px;
+        margin-left: 250px;
+    }
+
+    #box_inside {
+        width: 400px;
+        height: 60px;
+        margin-top: 1500px;
+        margin-left: 240px;
+        background: darkblue;
+        z-index: -11;
+    }
+
+    #box_outside {
+        width: 400px;
+        height: 70px;
+        margin-top: 1480px;
+        margin-left: 250px;
+        background: #eec005;
+        color: white;
+        font-size: 1.3em;
+    }
+    #left{
+        text-indent: -99999px;
+    }
+    #right{
+        text-indent: -99999px;
+    }
+    #message {
+        font-size: 15px;
+        margin-top: 1590px;
+        margin-left: 90px;
+        width: 600px;
+    }
+
+
+}
+
+@media (max-width: 600px ) and (min-width: 400px) {
+    #content h1{
+        margin-left: -200px;
+        font-size: 25px;
+        margin-top: -100px;
+    }
+
+    #profile img{
+        width: 250px;
+        height: 250px;
+        margin-top: 1000px;
+        margin-left: 150px;
+    }
+
+    #box_inside {
+        width: 340px;
+        height: 60px;
+        margin-top: 1250px;
+        margin-left: 100px;
+        background: darkblue;
+        z-index: -11;
+    }
+
+    #box_outside {
+        width: 350px;
+        height: 70px;
+        margin-top: 1220px;
+        margin-left: 110px;
+        background: #eec005;
+        color: white;
+        font-size: 1.3em;
+    }
+    #left{
+        text-indent: -99999px;
+    }
+    #right{
+        text-indent: -99999px;
+    }
+    #message {
+        font-size: 15px;
+        margin-top: 1350px;
+        margin-left: 50px;
+        width: 400px;
+    }
+    }
+
+@media all and (max-width: 1500px) and (min-width: 500px) {
+    #for_yellow {
+        width: 0px;
+        height: 0px;
+        border-bottom: 60px solid transparent;
+        border-left: 550px solid #c7c10c;
+        border-top: 60px solid transparent;
+        margin-top: 1900px;
+        z-index: -11;
+    }
+
+    #for_blue{
+        margin-top: 1900px;
+        border-bottom: 300px solid transparent;
+        border-left: 2000px solid transparent ;
+        border-top: 300px solid darkblue;
+    }
+}
+
+@media all and (max-width: 800px) and (min-width: 300px){
+    #for_yellow {
+        width: 0px;
+        height: 0px;
+        border-bottom: 40px solid transparent;
+        border-left: 550px solid #c7c10c;
+        border-top: 40px solid transparent;
+        margin-top: 1750px;
+        z-index: -11;
+    }
+
+    #for_blue{
+        margin-top: 1750px;
+        border-bottom: 300px solid transparent;
+        border-left: 3000px solid transparent ;
+        border-top: 300px solid darkblue;
+    }
 }
 
 
