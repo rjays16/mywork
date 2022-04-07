@@ -11,12 +11,15 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-9 col-lg-12 mb-5">
+      <div class="col-lg-9 col-md-12 mb-5">
         <div class="title bg-030C4C corner-rounded text-white p-3">
-          <h3 class="text-uppercase text-center rajdhani-bold mb-0">
+          <h3 class="text-uppercase text-center rajdhani-bold ">
             About the asian society  of dermatophatology (ASD)
           </h3>
         </div>
+      </div>
+      <div class="col-lg-3 col-md-12 mb-5">
+
       </div>
       <div class="col-lg-3 col-md-12">
         <img src="../../image/ASD_Logo.png" class="logo_asd">
@@ -28,8 +31,7 @@
             Apart from creating professional relationships, the goal of the society was to be able improve the
             caliber of this subspecialty and to hone further the diagnostic eye of its members by the sharing
             of cases and being up-to-date with the new developments in this field. The ASD offers Online
-            Self-Learning Programs, monthly webinars, annual international meetings, and provides links to
-            Asian dermatopathology fellowship and certification programs.</p>
+            Self-Learning Programs, monthly webinars, annual international meetings, and provides links to Asian dermatopathology fellowship and certification programs.</p>
         </div>
 
       <div class="col-12 mb-5">
@@ -74,7 +76,7 @@
         </div>
       </div>
 
-      <div class="col-lg-9 col-lg-12 mb-5">
+      <div class="col-lg-9 col-md-12 mb-5">
         <div class="title bg-030C4C corner-rounded text-white p-3">
           <h3 class="text-uppercase text-center rajdhani-bold mb-0">
             4th ASD Annual Meeting Organizing Committee
