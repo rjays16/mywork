@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import "../../css/style.css"
+
 export default {
   name: "About_content"
 }

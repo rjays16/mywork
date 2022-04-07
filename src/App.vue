@@ -1,29 +1,30 @@
 <template>
   <div id="app">
-    <About/>
-    <PromoVideo/>
-    <PresidentMessage/>
+<!--    <About/>-->
+<!--    <PromoVideo/>-->
+<!--    <PresidentMessage/>-->
     <OrganizingCommittee/>
-    <Socials/>
+<!--    <Socials/>-->
   </div>
 </template>
 
 <script>
 
-import PresidentMessage from "@/components/PresidentMessage";
-import About from "@/components/About";
+import "../css/style.css"
+// import PresidentMessage from "@/components/PresidentMessage";
+// import About from "@/components/About";
 import OrganizingCommittee from "@/components/OrganizingCommittee";
-import Socials from "@/components/Socials";
-import PromoVideo from "@/components/PromoVideo";
+// import Socials from "@/components/Socials";
+// import PromoVideo from "@/components/PromoVideo";
 export default {
   name: 'App',
   components: {
-    PromoVideo,
-
-    Socials,
+    // PromoVideo,
+    //
+    // Socials,
     OrganizingCommittee,
-    About,
-    PresidentMessage,
+    // About,
+    // PresidentMessage,
   },
 }
 </script>

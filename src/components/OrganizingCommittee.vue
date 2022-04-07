@@ -1,302 +1,287 @@
 <template>
 <section>
-  <div id="about">
-    <center><h3>ABOUT THE ASIAN SOCIETY OF DERMATOPATHOLOGY (ASD)</h3></center>
+<!--  <div id="asd">-->
+<!--    <img src="../../image/ASD_Logo.png">-->
+<!--  </div>-->
+
+<!--  <div id="message_asd">-->
+
+<!--    <center><a href="#">Visit the ASD Website</a></center>-->
+<!--  </div>-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-lg-12 mb-5">
+        <div class="title bg-030C4C corner-rounded text-white p-3">
+          <h3 class="text-uppercase text-center rajdhani-bold mb-0">
+            About the asian society  of dermatophatology (ASD)
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-12">
+        <img src="../../image/ASD_Logo.png" class="logo_asd">
+        </div>
+        <div class="col-lg-9 col-md-12">
+          <p class="oxygen-regular">
+            The Asian Society of Dermatopathology (ASD) was founded in 2016 by prominent Dermatologists and Dermatopathologists
+            from the different recognized medical societies predominantly based in Southeast Asian countries.
+            Apart from creating professional relationships, the goal of the society was to be able improve the
+            caliber of this subspecialty and to hone further the diagnostic eye of its members by the sharing
+            of cases and being up-to-date with the new developments in this field. The ASD offers Online
+            Self-Learning Programs, monthly webinars, annual international meetings, and provides links to
+            Asian dermatopathology fellowship and certification programs.</p>
+        </div>
+
+      <div class="col-12 mb-5">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapseTwo">
+             THE FOUNDERS OF THE ASD
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <p class="dmsans-regular mb-1">AUNG, Phyu P. (Houston)</p>
+                    <p class="dmsans-regular mb-1">CHOW, Steven (Kuala Lumpur)</p>
+                    <p class="dmsans-regular mb-1">ISMAEL, Daisy (Manila)</p>
+                    <p class="dmsans-regular mb-1">JAMORA, Maria Jasmin J. (Manila)</p>
+                    <p class="dmsans-regular mb-1">KIMURA, Tetsunori (Sapporo)</p>
+                    <p class="dmsans-regular mb-1">LEE, Bang Rom (Kuala Lumpur)</p>
+                    <p class="dmsans-regular mb-1">LEE, Dong-Youn (Seoul)</p>
+                    <p class="dmsans-regular mb-1">LEE, Joyce Siong See (Singapore)</p>
+                    <p class="dmsans-regular mb-1">NOPPAKUM, Nopadon (Bangkok)</p>
+                    <p class="dmsans-regular mb-1">OHATA, Chika (Fukuoka)</p>
+                  </div>
+                  <div class="col-lg-6 col-md-3">
+                    <p class="dmsans-regular mb-1">PALIZA, Arnelfa C. (Manila)</p>
+                    <p class="dmsans-regular mb-1">PHUNG, Thuy L. (Houston)</p>
+                    <p class="dmsans-regular mb-1">RAMAM, M (New Delhi)</p>
+                    <p class="dmsans-regular mb-1">SUN, Jianfang (Nanjing)</p>
+                    <p class="dmsans-regular mb-1">TAN, Suat Hoon (Singapore)</p>
+                    <p class="dmsans-regular mb-1">TEE, Shang-Ian (Singapore)</p>
+                    <p class="dmsans-regular mb-1">VERALLO-ROWELL, Vermen M. (Manila)</p>
+                    <p class="dmsans-regular mb-1">WU, Yu-Hung (Taipei)</p>
+                    <p class="dmsans-regular mb-1">WANG, Lei (Xian)</p>
+                    <p class="dmsans-regular mb-1">YAMAMOTO, Osamu (Tottori)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-9 col-lg-12 mb-5">
+        <div class="title bg-030C4C corner-rounded text-white p-3">
+          <h3 class="text-uppercase text-center rajdhani-bold mb-0">
+            4th ASD Annual Meeting Organizing Committee
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 mb-5">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapseTwo">
+            DSP BOARD OF DIRECTORS
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <p class="dmsans-regular mb-1">Arnelfa C. Paliza, MD, FPDS</p>
+                    <p class="dmsans-regular mb-1">President</p>
+                    <p class="dmsans-regular mb-1">Georgina C Pastorfide MD, FPDS</p>
+                    <p class="dmsans-regular mb-1">Vice-President</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 mb-5">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapseTwo">
+              ORGANIZING COMMITTEE
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <p class="dmsans-regular mb-1">Arnelfa C. Paliza, MD, FPDS</p>
+                    <p class="dmsans-regular mb-1">Overall Chair</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 mb-5">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapseTwo">
+              SCIENTIFIC
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <p class="dmsans-regular mb-1">Flordeliza Casintahan, MD, FPDS</p>
+                    <p class="dmsans-regular mb-1">Maria Jasmin J. Jamora, MD, FPDS</p>
+                    <p class="dmsans-regular mb-1">Co-Chairs</p>
+                    <p class="dmsans-regular mb-1"></p>
+                    <p class="dmsans-regular mb-1">Bryan Guevara, MD, FPDS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 mb-5">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapseTwo">
+              WAYS & MEANS
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <p class="dmsans-regular mb-1">Georgina C. Pastorfide, MD, FPDS</p>
+                    <p class="dmsans-regular mb-1">Chair</p>
+                    <p class="dmsans-regular mb-1"></p>
+                    <p class="dmsans-regular mb-1">Maria Franchesca S. Quinio, MD, FPDS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 mb-5">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapseTwo">
+              PHYSICAL ARRANGEMENTS
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <p class="dmsans-regular mb-1">Andrea Marie B. Bernales- Mendoza, MD, FPDS</p>
+                    <p class="dmsans-regular mb-1">Chair</p>
+                    <p class="dmsans-regular mb-1"></p>
+                    <p class="dmsans-regular mb-1">Johaness F. Dayrit. MD, FPDS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 mb-5">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              PUBLICITY & AWARDS
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <p class="dmsans-regular mb-1">Kara Melissa Torres-Culala, MD, FPDS</p>
+                    <p class="dmsans-regular mb-1">Chair</p>
+                    <p class="dmsans-regular mb-1"></p>
+                    <p class="dmsans-regular mb-1">Terese Monette Aquino-Agas, MD, FPDS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 mb-5">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapseTwo">
+              REGISTRATION
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <p class="dmsans-regular mb-1">Mary Elizabeth Danga, MD, FPDS</p>
+                    <p class="dmsans-regular mb-1">Chair</p>
+                    <p class="dmsans-regular mb-1"></p>
+                    <p class="dmsans-regular mb-1">Tanya Perez-Chua, MD, FPDS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 mb-5">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapseTwo">
+              RESEARCH
+            </button>
+          </h2>
+          <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <p class="dmsans-regular mb-1">Mara Therese P. Evangelista-Huber, MD, FPDS</p>
+                    <p class="dmsans-regular mb-1">Chair</p>
+                    <p class="dmsans-regular mb-1"></p>
+                    <p class="dmsans-regular mb-1">Eileen Liesl A. Cubillan, MD, FPDSr</p>
+                    <p class="dmsans-regular mb-1">Riza R. Milante, MD, FPDSS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
 
-  <div id="asd">
-    <img src="../../image/ASD_Logo.png">
-  </div>
-
-  <div id="message_asd">
-    <p>The Asian Society of Dermatopathology (ASD) was founded in
-      2016 by prominent Dermatologists and Dermatopathologists
-      from the different recognized medical societies predominantly
-      based in Southeast Asian countries. Apart from creating
-      professional relationships, the goal of the society was to be
-      able improve the caliber of this subspecialty and to hone
-      further the diagnostic eye of its members by the sharing of
-      cases and being up-to-date with the new developments in this
-      field. The ASD offers Online Self-Learning Programs, monthly
-      webinars, annual international meetings, and provides links to
-      Asian dermatopathology fellowship and certification
-      programs.</p>
-    <center><a href="#">Visit the ASD Website</a></center>
-  </div>
-
-  <div id="committee">
-  <div id="founders">
-    <b-button style="width: 1295px; background-color: white; color: darkblue; font-size: 40px;"  v-b-toggle.collapse-a @click="visible = !visible">
-      <span style="float: left">THE FOUNDERS OF THE ASD</span>
-      <img v-if="visible===false" style="width: 60px; float: right" src="../../image/left.svg">
-      <img v-else style="width: 60px; float: right" src="../../image/down.png">
-    </b-button>
-
-    <!--      &lt;!&ndash; Via array of string IDs passed to directive value &ndash;&gt;-->
-    <!--      <b-button v-b-toggle="['collapse-a', 'collapse-b']">Toggle Collapse A and B</b-button>-->
-
-    <!-- Elements to collapse -->
-    <b-collapse id="collapse-a" class="mt-2">
-      <b-card>
-        <table border="1">
-          <tr>
-            <td width="408">AUNG, Phyu P. (Houston)</td>
-            <td width="240">PALIZA, Arnelfa C. (Manila)</td>
-          </tr>
-          <tr>
-            <td>CHOW, Steven (Kuala Lumpur) </td>
-            <td>PHUNG, Thuy L. (Houston)</td>
-          </tr>
-          <tr>
-            <td>ISMAEL, Daisy (Manila) </td>
-            <td>RAMAM, M (New Delhi)</td>
-          </tr>
-          <tr>
-            <td>JAMORA, Maria Jasmin J. (Manila)</td>
-            <td>SUN, Jianfang (Nanjing) </td>
-          </tr>
-          <tr>
-            <td>KIMURA, Tetsunori (Sapporo)</td>
-            <td>TAN, Suat Hoon (Singapore) </td>
-          </tr>
-          <tr>
-            <td>LEE, Bang Rom (Kuala Lumpur)</td>
-            <td>TEE, Shang-Ian (Singapore)</td>
-          </tr>
-          <tr>
-            <td>LEE, Dong-Youn (Seoul)</td>
-            <td>VERALLO-ROWELL, Vermen M. (Manila)</td>
-          </tr>
-          <tr>
-            <td>LEE, Joyce Siong See (Singapore)</td>
-            <td>WU, Yu-Hung (Taipei)</td>
-          </tr>
-          <tr>
-            <td>NOPPAKUM, Nopadon (Bangkok)</td>
-            <td>WANG, Lei (Xian</td>
-          </tr>
-          <tr>
-            <td>OHATA, Chika (Fukuoka)</td>
-            <td>YAMAMOTO, Osamu (Tottori)</td>
-          </tr>
-        </table>
-      </b-card>
-    </b-collapse>
-  </div>
-
-  <div id="dsp">
-    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px"  v-b-toggle.collapse-b @click="visible2 = !visible2">
-      <span style="float: left">DSP Board of Directors</span>
-      <img v-if="visible2===false" style="width: 60px; float: right" src="../../image/left.svg">
-      <img v-else style="width: 60px; float: right" src="../../image/down.png">
-    </b-button>
-    <b-collapse id="collapse-b" class="mt-2">
-      <b-card>
-        <table width="313" border="0">
-          <tr>
-            <td width="303">Arnelfa C. Paliza, MD, FPDS</td>
-          </tr>
-          <tr>
-            <td>President </td>
-          </tr>
-          <tr>
-            <td>Georgina C Pastorfide MD, FPDS </td>
-          </tr>
-          <tr>
-            <td>Vice-President</td>
-          </tr>
-        </table></b-card>
-    </b-collapse>
-  </div>
-
-  <div id="organizing">
-    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px"  v-b-toggle.collapse-c @click="visible3 = !visible3"><span style="float: left">Organizing Committee</span>
-      <img v-if="visible3===false" style="width: 60px; float: right" src="../../image/left.svg">
-      <img v-else style="width: 60px; float: right" src="../../image/down.png">
-    </b-button>
-    <b-collapse id="collapse-c" class="mt-2">
-      <b-card>
-        <table width="313" border="0">
-          <tr>
-            <td width="303">Arnelfa C. Paliza, MD, FPDS</td>
-          </tr>
-          <tr>
-            <td>Overall Chair</td>
-          </tr>
-        </table></b-card>
-    </b-collapse>
-  </div>
-
-  <div id="scientific">
-    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px"  v-b-toggle.collapse-d @click="visible4 = !visible4"><span style="float: left">SCIENTIFIC</span>
-      <img v-if="visible4===false" style="width: 60px; float: right" src="../../image/left.svg">
-      <img v-else style="width: 60px; float: right" src="../../image/down.png">
-    </b-button>
-    <b-collapse id="collapse-d" class="mt-2">
-      <b-card>
-        <table width="319" border="0">
-          <tr>
-            <td width="227">Flordeliza Casintahan, MD, FPDS</td>
-          </tr>
-          <tr>
-            <td>Maria Jasmin J. Jamora, MD, FPDS</td>
-          </tr>
-          <tr>
-            <td>Co-Chairs</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td>Bryan Guevara, MD, FPDS</td>
-          </tr>
-        </table></b-card>
-    </b-collapse>
-  </div>
-
-  <div id="ways">
-    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px"  v-b-toggle.collapse-e @click="visible5 = !visible5"><span style="float: left">WAYS & MEANS</span>
-      <img v-if="visible5===false" style="width: 60px; float: right" src="../../image/left.svg">
-      <img v-else style="width: 60px; float: right" src="../../image/down.png">
-    </b-button>
-    <b-collapse id="collapse-e" class="mt-2">
-      <b-card>
-        <table width="349" border="0">
-          <tr>
-            <td width="317">Georgina C. Pastorfide, MD, FPDS</td>
-          </tr>
-          <tr>
-            <td>Chair</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td>Maria Franchesca S. Quinio, MD, FPDS</td>
-          </tr>
-        </table></b-card>
-    </b-collapse>
-  </div>
-
-  <div id="physical">
-    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px "  v-b-toggle.collapse-f @click="visible6 = !visible6"><span style="float: left">PHYSICAL ARRANGEMENTS</span>
-      <img v-if="visible6===false" style="width: 60px; float: right" src="../../image/left.svg">
-      <img v-else style="width: 60px; float: right" src="../../image/down.png">
-    </b-button>
-    <b-collapse id="collapse-f" class="mt-2">
-      <b-card>
-        <table width="432" border="0">
-          <tr>
-            <td width="244">Andrea Marie B. Bernales- Mendoza, MD, FPDS</td>
-          </tr>
-          <tr>
-            <td>Chair</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td>Johaness F. Dayrit. MD, FPDS</td>
-          </tr>
-        </table></b-card>
-    </b-collapse>
-  </div>
-
-  <div id="publicity">
-    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px"  v-b-toggle.collapse-g @click="visible7 = !visible7"><span style="float: left">PUBLICITY</span>
-      <img v-if="visible7===false" style="width: 60px; float: right" src="../../image/left.svg">
-      <img v-else style="width: 60px; float: right" src="../../image/down.png">
-    </b-button>
-    <b-collapse id="collapse-g" class="mt-2">
-      <b-card>
-        <table width="346" border="0">
-          <tr>
-            <td width="340">Kara Melissa Torres-Culala, MD, FPDS</td>
-          </tr>
-          <tr>
-            <td>Chair</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td>Terese Monette Aquino-Agas, MD, FPDS </td>
-          </tr>
-        </table></b-card>
-    </b-collapse>
-  </div>
-
-  <div id="registration">
-    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px"  v-b-toggle.collapse-i @click="visible9 = !visible9"><span style="float: left">REGISTRATION</span>
-      <img v-if="visible9===false" style="width: 60px; float: right" src="../../image/left.svg">
-      <img v-else style="width: 60px; float: right" src="../../image/down.png">
-    </b-button>
-    <b-collapse id="collapse-i" class="mt-2">
-      <b-card>
-        <table width="346" border="0">
-          <tr>
-            <td width="340">Mary Elizabeth Danga, MD, FPDS</td>
-          </tr>
-          <tr>
-            <td>Chair</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td>Tanya Perez-Chua, MD, FPDS</td>
-          </tr>
-        </table></b-card>
-    </b-collapse>
-  </div>
-
-  <div id="research">
-    <b-button style="width: 595px; background-color: white; color: darkblue; font-size: 40px"  v-b-toggle.collapse-j @click="visible10 = !visible10"><span style="float: left">RESEARCH</span>
-      <img v-if="visible10===false" style="width: 60px; float: right" src="../../image/left.svg">
-      <img v-else style="width: 60px; float: right" src="../../image/down.png">
-    </b-button>
-    <b-collapse id="collapse-j" class="mt-2">
-      <b-card>
-        <table width="408" border="0">
-          <tr>
-            <td width="398">Mara Therese P. Evangelista-Huber, MD, FPDS</td>
-          </tr>
-          <tr>
-            <td>Chair</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td>Eileen Liesl A. Cubillan, MD, FPDS</td>
-          </tr>
-          <tr>
-            <td>Riza R. Milante, MD, FPDS</td>
-          </tr>
-        </table></b-card>
-    </b-collapse>
-  </div>
-  </div>
 </section>
 </template>
 
 <script>
 export default {
   name: "OrganizaingCommittee",
-  data(){
-    return {
-      visible: false,
-      visible2: false,
-      visible3: false,
-      visible4: false,
-      visible5: false,
-      visible6: false,
-      visible7: false,
-      visible8: false,
-      visible9: false,
-      visible10: false,
-    }
-  }
 }
 </script>
 
