@@ -659,27 +659,15 @@
 /*        font-size: 20px;*/
 /*        font-weight: 750;*/
 /*    }*/
-.accordion-button::after{
+.accordion-button:after{
     padding: 17px;
     background-color: #030c4c;
     background-position: 50%;
     justify-content: center;
     border-radius: 50%;
     outline: 0;
-
-}
-.bg-white{
-    background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important;
 }
 
-.accordion-button{
-    width: 100%;
-    align-items: center;
-    padding: 1rem 1.25rem;
-    position: relative;
-    border: 0 !important;
-    display: block;
-}
 
 .bg-030C4C{
     background-color: #030c4c;
@@ -688,12 +676,22 @@
 
 .accordion-button:after {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
-}
-
-.accordion-button:not(.collapsed){
-    color: black;
+    border-bottom: 0 !important;
 }
 
 .logo_asd{
     width: 100%;
 }
+
+.collapsed, .accordion-toggle:hover {
+    background-color: #555;
+}
+
+
+
+button{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
