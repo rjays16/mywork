@@ -1,13 +1,10 @@
 <template>
 <section>
-<!--  <div id="asd">-->
-<!--    <img src="../../image/ASD_Logo.png">-->
-<!--  </div>-->
-
-<!--  <div id="message_asd">-->
-
-<!--    <center><a href="#">Visit the ASD Website</a></center>-->
-<!--  </div>-->
+  <div class="container-fluid">
+    <div class="w-100 mb-3">
+      <img src="../../image/divider.png" class="w-100">
+    </div>
+  </div>
 
   <div class="container">
     <div class="row">
@@ -32,6 +29,7 @@
             caliber of this subspecialty and to hone further the diagnostic eye of its members by the sharing
             of cases and being up-to-date with the new developments in this field. The ASD offers Online
             Self-Learning Programs, monthly webinars, annual international meetings, and provides links to Asian dermatopathology fellowship and certification programs.</p>
+              <center class="oxygen-bold fw-bold visitLink"><a href="#">Visit the ASD Website</a></center>
         </div>
 
       <div class="col-12 mb-5">

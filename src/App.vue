@@ -1,8 +1,9 @@
 <template>
   <div id="app">
+
 <!--    <About/>-->
-<!--    <PromoVideo/>-->
-<!--    <PresidentMessage/>-->
+    <PromoVideo/>
+    <PresidentMessage/>
     <OrganizingCommittee/>
 <!--    <Socials/>-->
   </div>
@@ -11,20 +12,19 @@
 <script>
 
 import "../css/style.css"
-// import PresidentMessage from "@/components/PresidentMessage";
+import PresidentMessage from "@/components/PresidentMessage";
 // import About from "@/components/About";
 import OrganizingCommittee from "@/components/OrganizingCommittee";
 // import Socials from "@/components/Socials";
-// import PromoVideo from "@/components/PromoVideo";
+import PromoVideo from "@/components/PromoVideo";
 export default {
   name: 'App',
   components: {
-    // PromoVideo,
-    //
+    PromoVideo,
     // Socials,
     OrganizingCommittee,
     // About,
-    // PresidentMessage,
+    PresidentMessage,
   },
 }
 </script>
