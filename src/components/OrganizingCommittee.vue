@@ -28,13 +28,14 @@
             Apart from creating professional relationships, the goal of the society was to be able improve the
             caliber of this subspecialty and to hone further the diagnostic eye of its members by the sharing
             of cases and being up-to-date with the new developments in this field. The ASD offers Online
-            Self-Learning Programs, monthly webinars, annual international meetings, and provides links to Asian dermatopathology fellowship and certification programs.</p>
+            Self-Learning Programs, monthly webinars, annual international meetings,
+            and provides links to Asian dermatopathology fellowship and certification programs.</p>
               <center class="oxygen-bold fw-bold visitLink"><a href="#">Visit the ASD Website</a></center>
         </div>
 
       <div class="col-12 mb-5">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+          <h2 class="accordion-header" >
             <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapseTwo">
              THE FOUNDERS OF THE ASD
             </button>
@@ -83,7 +84,7 @@
       </div>
       <div class="col-lg-6 col-md-12 mb-5">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+          <h2 class="accordion-header">
             <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapseTwo">
             DSP BOARD OF DIRECTORS
             </button>
@@ -107,7 +108,7 @@
 
       <div class="col-lg-6 col-md-12 mb-5">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+          <h2 class="accordion-header">
             <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapseTwo">
               ORGANIZING COMMITTEE
             </button>
@@ -129,7 +130,7 @@
 
       <div class="col-lg-6 col-md-12 mb-5">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+          <h2 class="accordion-header">
             <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapseTwo">
               SCIENTIFIC
             </button>
@@ -154,7 +155,7 @@
 
       <div class="col-lg-6 col-md-12 mb-5">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+          <h2 class="accordion-header">
             <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapseTwo">
               WAYS & MEANS
             </button>
@@ -178,7 +179,7 @@
 
       <div class="col-lg-6 col-md-12 mb-5">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+          <h2 class="accordion-header" >
             <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapseTwo">
               PHYSICAL ARRANGEMENTS
             </button>
@@ -202,7 +203,7 @@
 
       <div class="col-lg-6 col-md-12 mb-5">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+          <h2 class="accordion-header" >
             <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               PUBLICITY & AWARDS
             </button>
@@ -226,7 +227,7 @@
 
       <div class="col-lg-6 col-md-12 mb-5">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+          <h2 class="accordion-header">
             <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapseTwo">
               REGISTRATION
             </button>
@@ -250,7 +251,7 @@
 
       <div class="col-lg-6 col-md-12 mb-5">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+          <h2 class="accordion-header" >
             <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapseTwo">
               RESEARCH
             </button>

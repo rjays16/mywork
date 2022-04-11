@@ -86,8 +86,12 @@
           </div>
 
           <div class="mb-3">
-            <p>Submissions that are related to dermatopathology including case reports, case series or studies highlighting dermatopathological features, descriptions or investigations are welcome.</p>
-            <p>Case presentations highlighting extraordinary or unusual dermatopathological features are suitable for free communications or E-posters.</p>
+            <p>Submissions that are related to dermatopathology including
+              case reports, case series or studies highlighting dermatopathological features,
+              descriptions or investigations are welcome.</p>
+            <p>Case presentations highlighting
+              extraordinary or unusual dermatopathological
+              features are suitable for free communications or E-posters.</p>
             <p>Only registered attendees can submit an abstract.</p>
             <p>Dates to remember:</p>
             <ul class="dmsans-bold ps-5">

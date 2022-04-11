@@ -41,15 +41,16 @@
             Society of the Philippines of the Philippine Dermatological Society (DSP-PDS). For this virtual conference, we are fortunate
             to have world-renowned speakers from the United States, Europe and Asia, who will share with us their knowledge and updates
             through the plenary sessions where dermatopathology is correlated with medical dermatology, infectious and tropical medicine,
-            tumors and nails, and advances in diagnostics. For the case discussions, our Asian colleagues will feature various cases seen within
-            the region which may be rare, interesting or challenging. We hope trainees and practicing physicians will join the e-poster or oral
-            presentation of their researches, as well as win the 2022 ASD Presentation and Scholarship Awards.</p>
+            tumors and nails, and advances in diagnostics. For the case discussions, our Asian colleagues will
+            feature various cases seen within the region which may be rare, interesting or challenging. We hope trainees and
+            practicing physicians will join the e-poster or oral presentation of their researches, as well as win the 2022 ASD Presentation
+            and Scholarship Awards.</p>
           <p>On behalf of the members of the DSP-PDS and the Organizing Committee of the
             4th ASD Annual Meeting, I would like to thank all the speakers and participants
             who will join us for this two-day conference. I certainly appreciate the guidance and support of the ASD
             Officers and Executive Committee members. I would like to thank also the members of the Organizing Committee who have diligently
-            worked hard for this annual meeting, as well as the pharmaceutical companies that have supported our endeavor. All our joint efforts
-            will surely make this event a success and a fruitful learning experience.</p>
+            worked hard for this annual meeting, as well as the pharmaceutical companies that have supported our endeavor.
+            All our joint efforts will surely make this event a success and a fruitful learning experience.</p>
           <p class="dmsans-bold mb-1">Arnelfa C. Paliza, MD, FPDS</p>
           <p class="mb-1">President</p>
           <p class="mb-3">
