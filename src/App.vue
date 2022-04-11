@@ -1,11 +1,11 @@
 <template>
   <div id="app">
 
-<!--    <About/>-->
+    <About/>
     <PromoVideo/>
     <PresidentMessage/>
     <OrganizingCommittee/>
-<!--    <Socials/>-->
+    <Socials/>
   </div>
 </template>
 
@@ -13,17 +13,17 @@
 
 import "../css/style.css"
 import PresidentMessage from "@/components/PresidentMessage";
-// import About from "@/components/About";
+import About from "@/components/About";
 import OrganizingCommittee from "@/components/OrganizingCommittee";
-// import Socials from "@/components/Socials";
+import Socials from "@/components/Socials";
 import PromoVideo from "@/components/PromoVideo";
 export default {
   name: 'App',
   components: {
     PromoVideo,
-    // Socials,
+    Socials,
     OrganizingCommittee,
-    // About,
+    About,
     PresidentMessage,
   },
 }

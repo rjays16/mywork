@@ -1,27 +1,10 @@
 /*div{*/
 /*    position: absolute;*/
 /*}*/
-/*html, body{*/
-/*    overflow-x: hidden;*/
-/*}*/
+html, body{
+    overflow-x: hidden;
+}
 
-
-/*#box{*/
-/*    width: 0px;*/
-/*    height: 0px;*/
-/*    border-bottom: 200px solid transparent;*/
-/*    border-left: 100vw solid transparent ;*/
-/*    border-top: 150px solid #030c4c;*/
-/*    position: absolute;*/
-/*}*/
-
-/*#img1 img{*/
-/*    width: auto;*/
-/*    height: 6rem;*/
-/*    background-size: cover;*/
-/*    overflow: visible;*/
-/*    margin-left: 1300px;*/
-/*}*/
 
 /*#img2 img{*/
 /*    overflow: hidden;*/
@@ -756,7 +739,6 @@ button{
 #content-frame{
     position: absolute;
     z-index: -11;
-    margin-left: 350px;
     width: 600px;
 }
 
@@ -768,4 +750,90 @@ button{
     color: black;
     font-weight: 700;
 }
+
+.ps-5{
+    font-weight: 600;
+}
+
+.iconList ul li .asd-link{
+    text-decoration: none;
+    font-weight: 700;
+    color: #030c4c;
+    font-size: 45px;
+}
+img, svg{
+    vertical-align: middle;
+}
+
+.iconList ul li {
+    margin: 25px;
+}
+
+#social-footer{
+    position: absolute;
+    z-index: -11;
+}
+
+#text-social-footer{
+    margin-top: 150px;
+}
+
+#right-image img{
+    height: 96px;
+    width: 206px;
+    position: absolute;
+}
+
+#right-image{
+    margin-left: 84%
+}
+
+#right-image img{
+    z-index: 100;
+    margin-top: 10px;
+}
+#about-box-blue{
+    position: absolute;
+    z-index: 100;
+    border-left: 100vw solid transparent ;
+    border-top: 160px solid #030c4c;
+}
+
+
+#about-box-yellow{
+        border-bottom: 165px solid #eec005;
+        border-left:100vw solid transparent;
+        border-top: 100px solid transparent;
+        z-index: 100;
+        position: absolute;
+        margin-top: 380px;
+}
+
+#about-box-yellow h2{
+    z-index: -11;
+    position: absolute;
+}
+
+#about-banner{
+    background-image: url("../image/banner.jpg");
+}
+
+#about-title{
+    margin-top: 550px;
+    position: absolute;
+    z-index: 100;
+    margin-left: 80%;
+    color: #030c4c;
+    display: inline-block;
+}
+
+#about-paragraph{
+    margin-top: 590px;
+    position: absolute;
+    z-index: 100;
+    margin-left: 77%;
+    color: #030c4c;
+    display: inline-block;
+}
+
 
