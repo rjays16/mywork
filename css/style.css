@@ -58,6 +58,7 @@ button{
 .color-box{
     position: absolute;
     z-index: 102;
+    margin-top: 500px;
 }
 
 .container .col-text .upper-quote{
@@ -99,7 +100,7 @@ button{
 #content-frame{
     position: absolute;
     z-index: -11;
-    width: 600px;
+    width: 750px;
 }
 
 #fees{
@@ -184,6 +185,7 @@ img, svg{
     z-index: 100;
     margin-left: 80%;
     color: #030c4c;
+    font-weight: 700;
     display: inline-block;
 }
 
@@ -193,12 +195,13 @@ img, svg{
     z-index: 100;
     margin-left: 77%;
     color: #030c4c;
+    font-weight: 700;
     display: inline-block;
 }
 
 #about-meeting{
     position: absolute;
-    top: 25%;
+    top: 23%;
     background-color: #001357;
     width: 600px;
     right: 80px;
@@ -209,22 +212,284 @@ img, svg{
     opacity: 1;
 }
 
-@media (min-width: 1400px) {
-    
+#promo-video {
+    margin-left: 30%;
 }
 
-@media (min-width: 1200px) {
+
+@media all and (max-width: 1445px) and (min-width: 1189px) {
+    #about-title{
+        margin-left: 76%;
+    }
+
+    #about-paragraph{
+        margin-left: 72%;
+
+    }
+}
+@media all and (max-width: 1400px) and (min-width: 500px){
+    hr{
+        display: none;
+    }
+    #about-meeting hr {
+        display: inherit;
+    }
+    #color-box{
+        margin-left: 50px;
+    }
+}
+
+@media all and (max-width: 1325px) and (min-width: 768px) {
+    #promo-video{
+        margin-left: 15%;
+    }
+    #promo-video iframe{
+        width: 500px;
+        height: 300px;
+    }
+    #content-frame{
+        position: absolute;
+        z-index: -11;
+        width: 540px;
+    }
+
+    #right-image{
+        margin-left: 74%;
+    }
+}
+
+@media all and (max-width: 1200px) and (min-width: 570px) {
+    #organizingCommittee-header{
+        font-size: 1.5rem;
+    }
 
 }
 
-@media (min-width: 992px) {
+@media all and (max-width: 1200px) and (min-width: 764px) {
+    #organizingCommittee-about{
+        font-size: 1.4rem;
+    }
+}
+
+@media all and (max-width: 1189px) and (min-width: 993px) {
+    #about-title{
+        margin-left: 69%;
+    }
+
+    #about-paragraph{
+        margin-left: 65%;
+
+    }
+    #about-meeting{
+        margin-top: 5%;
+    }
+}
+
+@media all and (max-width: 993px) and (min-width: 768px){
+    #president-message-asd{
+        margin-left: 28%;
+    }
 
 }
 
-@media (min-width: 768px) {
+@media all and (max-width: 993px) and (min-width: 500px) {
+    #about-title{
+        margin-left: 65%;
+    }
+
+    #about-paragraph{
+        margin-left: 57%;
+
+    }
+
+    #about-meeting h1{
+        font-size: 1.7rem;
+    }
+    #left-image img{
+        width: 500px;
+        height: 741px;
+        margin-top: -30px;
+    }
+    .lower-quote{
+        display: none;
+    }
+    .upper-quote{
+        display: none;
+    }
+    #color-box{
+        margin-top: 0px;
+        font-size: 1rem;
+    }
+    #organizingCommittee-container{
+        margin-top: 80px;
+    }
+    .container-fluid img{
+        margin-top: 80px;
+    }
+    #president-message-dsp{
+        font-size: 2rem;
+    }
+    #about-box-yellow{
+        margin-top: 448px;
+        z-index: 200;
+    }
+
+    #about-title{
+        margin-top: 620px;
+        z-index: 200;
+    }
+
+    #about-paragraph{
+        margin-top: 660px;
+        z-index: 200;
+    }
+    .logo_asd{
+        width: 50%;
+        margin-left: 20%;
+    }
+}
+
+
+@media all and (max-width: 781px) and (min-width: 528px) {
+    #about-title{
+        margin-left: 59%;
+    }
+
+    #about-paragraph{
+        margin-left: 49%;
+    }
 
 }
 
-@media (min-width: 576px) {
+@media all and (max-width: 781px) and (min-width: 740px) {
+    #about-title{
+        margin-left: 59%;
+    }
+    #about-paragraph{
+        margin-left: 49%;
+    }
+    #about-meeting h1{
+        font-size: 1.9rem;
+        z-index: 200;
+    }
+    #about-meeting hr{
+        z-index: 200;
+    }
+    #about-block-color-blue{
+        width: 800px;
+        height: 413px;
+        position: absolute;
+        background-color: #001357;
+        z-index: 100;
+        margin-top: 300px;
+    }
+    #about-meeting {
+        margin-top: 20%;
+    }
+}
+
+@media all and (max-width: 768px) and (min-width: 500px) {
+    #president-message-asd{
+        margin-left: 16%;
+    }
+    #promo-video img{
+        display: none;
+    }
+    #promo-video{
+        margin-left: -10%;
+    }
+    #promo-video iframe{
+        width: 500px;
+        height: 300px;
+    }
+    #right-image{
+        margin-left: 55%;
+    }
+}
+
+
+@media all and (max-width: 740px) and (min-width: 582px) {
+    #about-meeting {
+        margin-top: 20%;
+    }
+    #about-meeting h1{
+        font-size: 1.9rem;
+        z-index: 200;
+    }
+    #about-meeting hr{
+        z-index: 200;
+    }
+   #about-block-color-blue{
+       width: 800px;
+       height: 428px;
+       position: absolute;
+       background-color: #001357;
+       z-index: 100;
+       margin-top: 285px;
+   }
+}
+
+@media all and (max-width: 730px) and (min-width: 500px) {
+    #president-message-dsp{
+        font-size: 1.7rem;
+    }
+}
+
+@media all and (max-width: 582px) and (min-width: 500px) {
+    #about-meeting {
+        margin-top: -450px;
+        height: 300px;
+        width: 500px;
+        position: initial;
+        z-index: 100;
+    }
+
+    #about-box-yellow{
+        margin-top: 448px;
+        z-index: 200;
+    }
+    #about-title{
+        z-index: 200;
+    }
+    #about-paragraph{
+        z-index: 200;
+    }
+    #about-block-color-blue{
+        width: 500px;
+        height: 150px;
+        position: absolute;
+        background-color: #001357;
+        z-index: 100;
+        margin-top: 560px;
+    }
 
 }
+
+@media all and (max-width: 532px) and (min-width: 500px) {
+    #organizingCommittee-header{
+        font-size: 1.3rem;
+    }
+}
+
+@media all and (max-width: 528px) and (min-width: 500px) {
+    #about-title{
+        margin-left: 55%;
+        font-size: 1.5rem;
+    }
+
+    #about-paragraph{
+        margin-left: 49%;
+    }
+
+    #about-box-yellow{
+        margin-top: 448px;
+        z-index: 200;
+    }
+    #about-title{
+        z-index: 200;
+    }
+    #about-paragraph{
+        z-index: 200;
+    }
+}
+
