@@ -185,6 +185,7 @@ img, svg{
     z-index: 100;
     margin-left: 80%;
     color: #030c4c;
+    font-weight: 700;
     display: inline-block;
 }
 
@@ -194,12 +195,13 @@ img, svg{
     z-index: 100;
     margin-left: 77%;
     color: #030c4c;
+    font-weight: 700;
     display: inline-block;
 }
 
 #about-meeting{
     position: absolute;
-    top: 25%;
+    top: 23%;
     background-color: #001357;
     width: 600px;
     right: 80px;
@@ -213,16 +215,155 @@ img, svg{
 #promo-video {
     margin-left: 30%;
 }
-@media all and (min-width: 1400px) {
+
+@media all and (max-width: 1445px) and (min-width: 1189px) {
+    #about-title{
+        margin-left: 76%;
+    }
+
+    #about-paragraph{
+        margin-left: 72%;
+
+    }
+}
+
+@media all and (max-width: 1189px) and (min-width: 993px) {
+    #about-title{
+        margin-left: 69%;
+    }
+
+    #about-paragraph{
+        margin-left: 65%;
+
+    }
+    #about-meeting{
+        margin-top: 5%;
+    }
+}
+
+@media all and (max-width: 993px) and (min-width: 500px) {
+    #about-title{
+        margin-left: 65%;
+    }
+
+    #about-paragraph{
+        margin-left: 57%;
+
+    }
+
+
+    #about-meeting h1{
+        font-size: 1.7rem;
+    }
+    #left-image img{
+        width: 500px;
+        height: 741px;
+        margin-top: -30px;
+    }
+}
+
+
+@media all and (max-width: 781px) and (min-width: 528px) {
+    #about-title{
+        margin-left: 59%;
+    }
+
+    #about-paragraph{
+        margin-left: 49%;
+    }
 
 }
+
+@media all and (max-width: 781px) and (min-width: 740px) {
+    #about-title{
+        margin-left: 59%;
+    }
+
+    #about-paragraph{
+        margin-left: 49%;
+    }
+    #about-meeting{
+        margin-top: 45%;
+        width: 900px;
+    }
+}
+
+@media all and (max-width: 740px) and (min-width: 582px) {
+    #about-meeting {
+        margin-top: 50%;
+        margin-top: -400px;
+        position: initial;
+    }
+}
+
+@media all and (max-width: 582px) and (min-width: 500px) {
+    #about-meeting {
+        margin-top: -400px;
+        height: 400px;
+        width: 500px;
+        position: initial;
+        z-index: 100;
+    }
+
+    #about-box-yellow{
+        margin-top: 448px;
+        z-index: 200;
+    }
+    #about-title{
+        z-index: 200;
+    }
+    #about-paragraph{
+        z-index: 200;
+    }
+}
+
+
+@media all and (max-width: 528px) and (min-width: 500px) {
+    #about-title{
+        margin-left: 55%;
+        font-size: 1.5rem;
+    }
+
+    #about-paragraph{
+        margin-left: 49%;
+    }
+
+    #about-box-yellow{
+        margin-top: 448px;
+        z-index: 200;
+    }
+    #about-title{
+        z-index: 200;
+    }
+    #about-paragraph{
+        z-index: 200;
+    }
+}
+
+
+@media all and (max-width: 992px) and (min-width: 500px) {
+    #about-box-yellow{
+        margin-top: 448px;
+    }
+
+    #about-title{
+        margin-top: 620px;
+    }
+
+    #about-paragraph{
+        margin-top: 660px;
+    }
+}
+
 
 @media all and (max-width: 1400px) and (min-width: 500px){
         hr{
             display: none;
         }
+        #about-meeting hr {
+            display: inherit;
+        }
 }
-
 
 @media all and (max-width: 1325px) and (min-width: 768px) {
     #promo-video{
@@ -236,6 +377,10 @@ img, svg{
         position: absolute;
         z-index: -11;
         width: 540px;
+    }
+
+    #right-image{
+        margin-left: 74%;
     }
 }
 
@@ -275,9 +420,13 @@ img, svg{
         width: 500px;
         height: 300px;
     }
-
-
+    #right-image{
+        margin-left: 55%;
+    }
 }
+
+
+
 @media all and (max-width: 993px) and (min-width: 500px) {
         .lower-quote{
             display: none;
