@@ -28,6 +28,7 @@
               <hr class="divider-2">
               <h1 class="text-uppercase mb-0">october 24-25, 2022</h1>
             </div>
+            <div id="about-block-color-blue"></div>
           </div>
         </div>
       </div>

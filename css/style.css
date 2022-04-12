@@ -251,7 +251,6 @@ img, svg{
 
     }
 
-
     #about-meeting h1{
         font-size: 1.7rem;
     }
@@ -278,28 +277,54 @@ img, svg{
     #about-title{
         margin-left: 59%;
     }
-
     #about-paragraph{
         margin-left: 49%;
     }
-    #about-meeting{
-        margin-top: 45%;
-        width: 900px;
+    #about-meeting h1{
+        font-size: 1.9rem;
+        z-index: 200;
+    }
+    #about-meeting hr{
+        z-index: 200;
+    }
+    #about-block-color-blue{
+        width: 800px;
+        height: 413px;
+        position: absolute;
+        background-color: #001357;
+        z-index: 100;
+        margin-top: 300px;
+    }
+    #about-meeting {
+        margin-top: 20%;
     }
 }
 
 @media all and (max-width: 740px) and (min-width: 582px) {
     #about-meeting {
-        margin-top: 50%;
-        margin-top: -400px;
-        position: initial;
+        margin-top: 20%;
     }
+    #about-meeting h1{
+        font-size: 1.9rem;
+        z-index: 200;
+    }
+    #about-meeting hr{
+        z-index: 200;
+    }
+   #about-block-color-blue{
+       width: 800px;
+       height: 428px;
+       position: absolute;
+       background-color: #001357;
+       z-index: 100;
+       margin-top: 285px;
+   }
 }
 
 @media all and (max-width: 582px) and (min-width: 500px) {
     #about-meeting {
-        margin-top: -400px;
-        height: 400px;
+        margin-top: -450px;
+        height: 300px;
         width: 500px;
         position: initial;
         z-index: 100;
@@ -315,6 +340,15 @@ img, svg{
     #about-paragraph{
         z-index: 200;
     }
+    #about-block-color-blue{
+        width: 500px;
+        height: 150px;
+        position: absolute;
+        background-color: #001357;
+        z-index: 100;
+        margin-top: 560px;
+    }
+
 }
 
 
@@ -344,14 +378,17 @@ img, svg{
 @media all and (max-width: 992px) and (min-width: 500px) {
     #about-box-yellow{
         margin-top: 448px;
+        z-index: 200;
     }
 
     #about-title{
         margin-top: 620px;
+        z-index: 200;
     }
 
     #about-paragraph{
         margin-top: 660px;
+        z-index: 200;
     }
 }
 
