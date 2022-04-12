@@ -292,7 +292,7 @@ img, svg{
 
 }
 
-@media all and (max-width: 993px) and (min-width: 500px) {
+@media all and (max-width: 993px) and (min-width: 200px) {
     #about-title{
         margin-left: 65%;
     }
@@ -388,7 +388,7 @@ img, svg{
     }
 }
 
-@media all and (max-width: 768px) and (min-width: 500px) {
+@media all and (max-width: 768px) and (min-width: 200px) {
     #president-message-asd{
         margin-left: 16%;
     }
@@ -435,7 +435,7 @@ img, svg{
     }
 }
 
-@media all and (max-width: 582px) and (min-width: 500px) {
+@media all and (max-width: 582px) and (min-width: 200px) {
     #about-meeting {
         margin-top: -450px;
         height: 300px;
@@ -450,9 +450,13 @@ img, svg{
     }
     #about-title{
         z-index: 200;
+        margin-left: 250px;
+        margin-top: 650px;
     }
     #about-paragraph{
         z-index: 200;
+        margin-left: 130px;
+        margin-top: 680px;
     }
 
     #about-block-color-blue{
@@ -462,7 +466,24 @@ img, svg{
         background-color: #001357;
         margin-top: 260px;
     }
-
+    #about-box-yellow {
+        margin-top: 505px;
+        border-bottom: 105px solid #eec005;
+        border-left: 100vw solid transparent;
+        border-top: 100px solid transparent;
+    }
+    #right-image{
+        width: 10%;
+        height: 30%;
+        margin-left: 48%;
+    }
+    #color-box{
+        margin-left: 50px;
+    }
+    .logo_asd {
+        width: 350px;
+        margin-left: 50px;
+    }
 }
 
 @media all and (max-width: 532px) and (min-width: 500px) {
@@ -490,6 +511,36 @@ img, svg{
     }
     #about-paragraph{
         z-index: 200;
+    }
+
+    @media all and (max-width: 528px) and (min-width: 500px) {
+        #about-title {
+            margin-left: 55%;
+            font-size: 1.5rem;
+        }
+
+        #about-paragraph {
+            margin-left: 49%;
+        }
+
+        #about-box-yellow {
+            margin-top: 448px;
+            z-index: 200;
+        }
+
+        #about-title {
+            z-index: 200;
+        }
+
+        #about-paragraph {
+            z-index: 200;
+        }
+    }
+}
+
+@media all and (max-width: 500px) and (min-width: 200px){
+    hr{
+        display: none;
     }
 }
 
