@@ -363,6 +363,9 @@ img, svg{
         #about-meeting hr {
             display: inherit;
         }
+        #color-box{
+            margin-left: 50px;
+        }
 }
 
 @media all and (max-width: 1325px) and (min-width: 768px) {
