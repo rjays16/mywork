@@ -9,8 +9,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-9 col-md-12 mb-5">
-        <div class="title bg-030C4C corner-rounded text-white p-3">
-          <h3 class="text-uppercase text-center rajdhani-bold ">
+        <div class="title bg-030C4C corner-rounded text-white p-3" id="organizingCommittee-container">
+          <h3 class="text-uppercase text-center rajdhani-bold" id="organizingCommittee-about">
             About the asian society  of dermatophatology (ASD)
           </h3>
         </div>
@@ -77,7 +77,7 @@
 
       <div class="col-lg-9 col-md-12 mb-5">
         <div class="title bg-030C4C corner-rounded text-white p-3">
-          <h3 class="text-uppercase text-center rajdhani-bold mb-0">
+          <h3 class="text-uppercase text-center rajdhani-bold mb-0" id="organizingCommittee-header">
             4th ASD Annual Meeting Organizing Committee
           </h3>
         </div>

@@ -58,6 +58,7 @@ button{
 .color-box{
     position: absolute;
     z-index: 102;
+    margin-top: 500px;
 }
 
 .container .col-text .upper-quote{
@@ -99,7 +100,7 @@ button{
 #content-frame{
     position: absolute;
     z-index: -11;
-    width: 600px;
+    width: 750px;
 }
 
 #fees{
@@ -209,22 +210,115 @@ img, svg{
     opacity: 1;
 }
 
-@media (min-width: 1400px) {
-    
+#promo-video {
+    margin-left: 30%;
 }
-
-@media (min-width: 1200px) {
-
-}
-
-@media (min-width: 992px) {
+@media all and (min-width: 1400px) {
 
 }
 
-@media (min-width: 768px) {
+@media all and (max-width: 1400px) and (min-width: 500px){
+        hr{
+            display: none;
+        }
+}
+
+
+@media all and (max-width: 1325px) and (min-width: 768px) {
+    #promo-video{
+        margin-left: 15%;
+    }
+    #promo-video iframe{
+        width: 500px;
+        height: 300px;
+    }
+    #content-frame{
+        position: absolute;
+        z-index: -11;
+        width: 540px;
+    }
+}
+
+@media all and (max-width: 1200px) and (min-width: 570px) {
+    #organizingCommittee-header{
+        font-size: 1.5rem;
+    }
 
 }
 
-@media (min-width: 576px) {
 
+@media all and (max-width: 1200px) and (min-width: 764px) {
+    #organizingCommittee-about{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media all and (max-width: 993px) and (min-width: 768px){
+        #president-message-asd{
+            margin-left: 28%;
+        }
+
+}
+
+@media all and (max-width: 768px) and (min-width: 500px) {
+    #president-message-asd{
+        margin-left: 16%;
+    }
+    #promo-video img{
+        display: none;
+    }
+    #promo-video{
+      margin-left: -10%;
+    }
+    #promo-video iframe{
+        width: 500px;
+        height: 300px;
+    }
+
+
+}
+@media all and (max-width: 993px) and (min-width: 500px) {
+        .lower-quote{
+            display: none;
+        }
+        .upper-quote{
+            display: none;
+        }
+        #color-box{
+            margin-top: 0px;
+            font-size: 1rem;
+        }
+        #organizingCommittee-container{
+            margin-top: 80px;
+        }
+        .container-fluid img{
+            margin-top: 80px;
+        }
+        #president-message-dsp{
+            font-size: 2rem;
+        }
+}
+
+@media all and (max-width: 730px) and (min-width: 500px) {
+    #president-message-dsp{
+        font-size: 1.7rem;
+    }
+}
+
+
+@media all and (max-width: 992px) and (min-width: 500px) {
+    .logo_asd{
+        width: 50%;
+        margin-left: 20%;
+    }
+}
+@media all and (max-width: 768px) and (min-width: 576px) {
+
+}
+
+@media all and (max-width: 532px) and (min-width: 500px) {
+    #organizingCommittee-header{
+        font-size: 1.3rem;
+    }
 }

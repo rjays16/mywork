@@ -5,12 +5,12 @@
         <h1 class="title text-center rajdhani-medium fw-bold ts-1">Message from ASD President</h1>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-md-12 col-image">
+        <div class="col-lg-6 col-md-12 col-image" id="president-message-asd">
           <img src="../../image/Yuhung_Profile.png" >
           <p class="color-box">Dr. Yu-Hung Wu<br>President</p>
         </div>
         <div class="col-lg-6 col-md-12 col-text dmsans-regular">
-          <p class="mt-3">
+          <p class="mt-5">
             <span class="upper-quote adamina-regular">❝</span>
            <br>On behalf of the Asian Society of Dermatopathology (ASD), we sincerely welcome you to join our 4th Annual Meeting on
             Oct 24-25, 2022. It's our great pleasure and privileges to share the knowledge, experience,
@@ -26,7 +26,7 @@
 
     <div class="container">
       <div class="row justify-content-center my-5">
-        <h1 class="title text-center rajdhani-medium fw-bold ts-1">
+        <h1 class="title text-center rajdhani-medium fw-bold ts-1" id="president-message-dsp">
           Message from the DSP-PDS President and Over-All Chair of the 4th ASD Annual Meeting
         </h1>
       </div>

@@ -2,12 +2,12 @@
   <section>
   <div class="container mb-5">
     <div class="row">
-      <div class="container">
+      <div class="container" id="promo-video">
       <div class="col-lg-11 col-md-12">
-     <center> <img src="../../image/video-frame.png" id="content-frame">
+   <img src="../../image/video-frame.png" id="content-frame">
        <iframe src="https://player.vimeo.com/video/694789792?h=918ac78c36"
-           width="540" height="360" frameborder="0" allow="autoplay; fullscreen;
-          picture-in-picture" style="margin-left: 30px"></iframe></center>
+           width="660" height="460" frameborder="0" allow="autoplay; fullscreen;
+          picture-in-picture" style="margin-left: 30px"></iframe>
         </div>
         </div>
       </div>
