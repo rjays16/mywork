@@ -524,16 +524,18 @@ img, svg{
         }
 
         #about-box-yellow {
-            margin-top: 448px;
+            margin-top: 500px;
             z-index: 200;
         }
 
         #about-title {
             z-index: 200;
+            margin-left: 250px;
         }
 
         #about-paragraph {
             z-index: 200;
+            margin-left: 150px;
         }
     }
 }
