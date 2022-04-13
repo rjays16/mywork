@@ -377,11 +377,11 @@ img, svg{
     }
     #about-block-color-blue{
         width: 800px;
-        height: 413px;
+        height: 455px;
         position: absolute;
         background-color: #001357;
         z-index: 100;
-        margin-top: 300px;
+        margin-top: 253px;
     }
     #about-meeting {
         margin-top: 20%;
@@ -421,11 +421,11 @@ img, svg{
     }
    #about-block-color-blue{
        width: 800px;
-       height: 428px;
+       height: 492px;
        position: absolute;
        background-color: #001357;
        z-index: 100;
-       margin-top: 285px;
+       margin-top: 220px;
    }
 }
 
@@ -486,7 +486,7 @@ img, svg{
     }
 }
 
-@media all and (max-width: 532px) and (min-width: 500px) {
+@media all and (max-width: 532px) and (min-width: 300px) {
     #organizingCommittee-header{
         font-size: 1.3rem;
     }
@@ -513,14 +513,15 @@ img, svg{
         z-index: 200;
     }
 
-    @media all and (max-width: 528px) and (min-width: 500px) {
+    @media all and (max-width: 528px) and (min-width: 200px) {
         #about-title {
             margin-left: 55%;
             font-size: 1.5rem;
         }
 
         #about-paragraph {
-            margin-left: 49%;
+            z-index: 200;
+            margin-left: 150px;
         }
 
         #about-box-yellow {
@@ -532,17 +533,46 @@ img, svg{
             z-index: 200;
             margin-left: 250px;
         }
-
-        #about-paragraph {
-            z-index: 200;
-            margin-left: 150px;
-        }
     }
 }
 
 @media all and (max-width: 500px) and (min-width: 200px){
     hr{
         display: none;
+    }
+    #color-box{
+        font-size: 14px;
+    }
+    .color-box{
+        font-size: 1px;
+    }
+    .container .col-image .color-box{
+        font-size: 14px;
+    }
+    #about-paragraph{
+        margin-left: 83px;
+    }
+    #about-title{
+        margin-left: 200px;
+    }
+}
+
+@media all and (max-width:  360px) {
+    #about-paragraph{
+        margin-left: 51px;
+        font-size: 15px;
+        margin-top: 690px;
+    }
+
+    #about-title {
+        margin-left: 160px;
+        margin-top: 660px;
+    }
+    #color-box{
+        font-size: 13px;
+    }
+    .logo_asd {
+        margin-left: 5px;
     }
 }
 
