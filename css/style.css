@@ -421,11 +421,11 @@ img, svg{
     }
    #about-block-color-blue{
        width: 800px;
-       height: 492px;
+       height: 517px;
        position: absolute;
        background-color: #001357;
        z-index: 100;
-       margin-top: 220px;
+       margin-top: 195px;
    }
 }
 
@@ -540,6 +540,9 @@ img, svg{
     hr{
         display: none;
     }
+    #about-meeting hr{
+        display: inherit;
+    }
     #color-box{
         font-size: 14px;
     }
@@ -574,5 +577,6 @@ img, svg{
     .logo_asd {
         margin-left: 5px;
     }
+
 }
 
